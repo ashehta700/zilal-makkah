@@ -1,0 +1,30 @@
+{
+  "project": "Zilal Makkah Geospatial Dataset",
+  "region": "Makkah Al-Mukarramah Central Area",
+  "bbox": {
+    "south": 21.412,
+    "west": 39.808,
+    "north": 21.432,
+    "east": 39.832
+  },
+  "crs": "EPSG:4326 (WGS84)",
+  "download_timestamp": "2026-10-18T12:13:16Z",
+  "layers": [
+    {
+      "file": "makkah_buildings_3d.geojson",
+      "description": "Footprints of all buildings with real heights in meters and levels"
+    },
+    {
+      "file": "makkah_hotels.geojson",
+      "description": "Verified hotels with Arabic/English names, stars, and distances to Kaaba"
+    },
+    {
+      "file": "makkah_pedestrian_network.geojson",
+      "description": "Pedestrian paths, sidewalks, covered arcades, and air-conditioned tunnels"
+    },
+    {
+      "file": "makkah_haram_gates.geojson",
+      "description": "Exact entrance gates of the Grand Mosque (Bab Abdulaziz, Bab Fahd, etc.)"
+    }
+  ]
+}

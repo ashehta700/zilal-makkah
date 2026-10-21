@@ -1,0 +1,2658 @@
+{
+  "type": "FeatureCollection",
+  "name": "Makkah_Haram_Gates",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1199442714,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8269231,
+          21.4254428
+        ]
+      },
+      "properties": {
+        "name_ar": "باب قريش 28",
+        "name_en": "Quraish Gate",
+        "gate_number": "28",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3210609688,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8252202,
+          21.4209022
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "90",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3210609691,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8253842,
+          21.4210042
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "93",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3210609708,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.824176,
+          21.4223466
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "68",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3210622327,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8240461,
+          21.421232
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الملك فھد - 79",
+        "name_en": "King Fahd Gate - 79",
+        "gate_number": "79",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4318154227,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8265147,
+          21.4240151
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الفتح",
+        "name_en": "Fateh Gate",
+        "gate_number": "30",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4318154228,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8245696,
+          21.4228378
+        ]
+      },
+      "properties": {
+        "name_ar": "باب العمرة - 40",
+        "name_en": "Umra Gate 40",
+        "gate_number": "40",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4538684098,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8271687,
+          21.4254685
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "26",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4562384977,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8275662,
+          21.4230322
+        ]
+      },
+      "properties": {
+        "name_ar": "باب السلام",
+        "name_en": "Bab Al Salam",
+        "gate_number": "",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4562391840,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8273872,
+          21.4253183
+        ]
+      },
+      "properties": {
+        "name_ar": "باب المروة - 25",
+        "name_en": "Bab Al Marwah 25",
+        "gate_number": "25",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4755914231,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8258406,
+          21.4210447
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الملك عبد العزیز (1)",
+        "name_en": "King Abdul Aziz Gate 1",
+        "gate_number": "1",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4900636561,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8262411,
+          21.4225173
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الكعبة",
+        "name_en": "Bab al Kaaba",
+        "gate_number": "",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5295574673,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8243138,
+          21.4225544
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "65",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5295574674,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8245256,
+          21.4225597
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "64",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5349266134,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8243476,
+          21.4224512
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "67",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5349266135,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8241224,
+          21.4224354
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "66",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5349266137,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8240354,
+          21.4222608
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "69",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5783364206,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8252628,
+          21.4208086
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "91",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5783364207,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8254624,
+          21.4209277
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "92",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5783364208,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8255488,
+          21.4210994
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "94",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5858896077,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8275792,
+          21.4229524
+        ]
+      },
+      "properties": {
+        "name_ar": "باب علي",
+        "name_en": "باب علي",
+        "gate_number": "17",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5858896695,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8276612,
+          21.4223494
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "15",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5858929758,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.824743,
+          21.4233538
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحديبية",
+        "name_en": "Bab al-Hudaybiyah",
+        "gate_number": "39",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5858933516,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8264059,
+          21.4210652
+        ]
+      },
+      "properties": {
+        "name_ar": "باب 3 أجياد",
+        "name_en": "Bab Ajyad - Gate 3",
+        "gate_number": "3",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5868264686,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.825277,
+          21.4241024
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "141",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5868264695,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8248492,
+          21.4238083
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "137",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5868454887,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8253797,
+          21.4241467
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "143",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5868612740,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8258979,
+          21.4242912
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "149",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5868612741,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8249317,
+          21.4238785
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "139",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5868612742,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8245488,
+          21.4234545
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "132",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5868926115,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8259286,
+          21.4240786
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "31",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5869403636,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8248784,
+          21.420775
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "88",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5869403642,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.823929,
+          21.4220685
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "71",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5869413798,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8269623,
+          21.4244162
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5873570238,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.824229,
+          21.4230626
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "127",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5873570239,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8264074,
+          21.4244369
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "154",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5874013038,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8256464,
+          21.4240235
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "33",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5874013040,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8255874,
+          21.4241869
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "145",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5874013041,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8249119,
+          21.4235726
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "37",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5874013043,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8247715,
+          21.423685
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "136",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5874013045,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8262311,
+          21.4240857
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5874013046,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8262355,
+          21.4242698
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "153",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5874024003,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8244426,
+          21.4231623
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "128",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5875587679,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.824132,
+          21.4253914
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الملك عبد الله",
+        "name_en": "King Abdullah Gate -100",
+        "gate_number": "",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5875608247,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8268532,
+          21.4213059
+        ]
+      },
+      "properties": {
+        "name_ar": "باب أجياد 5",
+        "name_en": "Ajyad Gate 5",
+        "gate_number": "",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5959825472,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8274041,
+          21.4251852
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "24",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6274498128,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8265113,
+          21.4257566
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "166",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6274506396,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8260695,
+          21.4258671
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "170",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6274507981,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8254521,
+          21.4257905
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "172",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6274534101,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8233973,
+          21.4233679
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "119",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6284017920,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.827387,
+          21.4244632
+        ]
+      },
+      "properties": {
+        "name_ar": "Bani Shaibah Bridge Gate - 21",
+        "name_en": "Bani Shaibah Bridge Gate - 21",
+        "gate_number": "21",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6284838118,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8273569,
+          21.4246888
+        ]
+      },
+      "properties": {
+        "name_ar": "باب بني شيبة 22",
+        "name_en": "22 Bani Shaibah Gate",
+        "gate_number": "22",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6286957777,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8243683,
+          21.4210223
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "81",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6286957780,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8239482,
+          21.421628
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "75",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6286957781,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8243,
+          21.4210652
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "80",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6286957782,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8244405,
+          21.4209167
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "84",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6297046470,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8252692,
+          21.4238175
+        ]
+      },
+      "properties": {
+        "name_ar": "باب القدس 35",
+        "name_en": "Al Quds Gate 35",
+        "gate_number": "35",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6347449492,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8232932,
+          21.4196188
+        ]
+      },
+      "properties": {
+        "name_ar": "Makkah Tower 6 Entrance",
+        "name_en": "Makkah Tower 6 Entrance",
+        "gate_number": "",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6347924198,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8234368,
+          21.4201593
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6939548311,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8230331,
+          21.424106
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "110",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6939548312,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8232249,
+          21.4244004
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "108",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6939875313,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8256473,
+          21.4258286
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "171",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6952678065,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.824128,
+          21.4230997
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "126",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6952678066,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8240511,
+          21.4232073
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "125",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6952678068,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8236056,
+          21.4232915
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "121",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6952730361,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8231187,
+          21.4242646
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "109",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6952780533,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8237933,
+          21.4250248
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "102",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6952780534,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8247215,
+          21.4256044
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "177",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6952781263,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8250574,
+          21.4208019
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "89",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6952792222,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8239401,
+          21.4221171
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "70",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6952792223,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8238782,
+          21.421845
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "73",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6952796607,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8274063,
+          21.4248184
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "23",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6952796608,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8268586,
+          21.4247579
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "41",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6952815064,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8230643,
+          21.4234909
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "116",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6952821421,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8257612,
+          21.4242718
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "147",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6952823256,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8260892,
+          21.4243127
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "152",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6952825911,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8245016,
+          21.423388
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "131",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6952825986,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8239039,
+          21.421688
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "74",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6952830685,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8246182,
+          21.4235608
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "134",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6955924610,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8262726,
+          21.4210413
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "2",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6955924615,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8266054,
+          21.4211869
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "4",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6955934980,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8276581,
+          21.4219351
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "13",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7087051618,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8243794,
+          21.4210054
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "82",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7087051619,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8243931,
+          21.4209865
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "83",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7530037908,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8243967,
+          21.4197701
+        ]
+      },
+      "properties": {
+        "name_ar": "Food Courts 3rd Floor",
+        "name_en": "Food Courts 3rd Floor",
+        "gate_number": "",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7728594724,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8277405,
+          21.4224983
+        ]
+      },
+      "properties": {
+        "name_ar": "باب سلم الأرقم الكهربائي",
+        "name_en": "باب سلم الأرقم الكهربائي",
+        "gate_number": "16",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8455552511,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8233401,
+          21.4248566
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "105",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8455577720,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8249786,
+          21.4258731
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "175",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8715775972,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8273881,
+          21.4253089
+        ]
+      },
+      "properties": {
+        "name_ar": "باب المروة - 25",
+        "name_en": "Bab Al Marwah 25",
+        "gate_number": "25",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8747505998,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8274905,
+          21.4240699
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "20",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8756153753,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8276781,
+          21.4222008
+        ]
+      },
+      "properties": {
+        "name_ar": "باب النبي",
+        "name_en": "Al Nabi Gate 14",
+        "gate_number": "14",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8756604114,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8272306,
+          21.4222985
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783559543,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8236159,
+          21.4249135
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "104",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783559544,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8236984,
+          21.4249683
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "103",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783559545,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8238786,
+          21.4250759
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "101",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783559546,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8245471,
+          21.4254926
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "179",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783559547,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8246296,
+          21.4255473
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "178",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783559548,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8248174,
+          21.4256577
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "176",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783559593,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8239744,
+          21.4215934
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "77",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783559594,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8239611,
+          21.4216101
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "76",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651499,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8241489,
+          21.4212315
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651500,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8241205,
+          21.421272
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651501,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8240921,
+          21.4213125
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651608,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8267429,
+          21.4251877
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "36",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651609,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8267317,
+          21.4252777
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "35",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651613,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8244521,
+          21.4233003
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "129",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651614,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8244745,
+          21.4233412
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "130",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651615,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8245865,
+          21.4235238
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "133",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651616,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8246489,
+          21.4236006
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "135",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651619,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8248831,
+          21.4238427
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "138",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651620,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8249715,
+          21.4239124
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "140",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651622,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8253281,
+          21.4241268
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "142",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651623,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8254334,
+          21.4241705
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "144",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651626,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8257091,
+          21.4242621
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "146",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651627,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8260395,
+          21.4243081
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "151",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651628,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8259857,
+          21.4243031
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "150",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651629,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8258135,
+          21.4242793
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "148",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651630,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8264091,
+          21.4245269
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "155",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651631,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8264404,
+          21.4246937
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651636,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8264392,
+          21.4255618
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "165",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651637,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8264365,
+          21.4254599
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "164",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651638,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8264289,
+          21.42517
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "161",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651639,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8264315,
+          21.4252683
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "162",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651640,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8264339,
+          21.425361
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "163",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651641,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8264237,
+          21.4249716
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "159",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651642,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8264211,
+          21.4248736
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "158",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651644,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8264261,
+          21.4250628
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "160",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651648,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8259605,
+          21.4258574
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "169",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651649,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8258431,
+          21.4258456
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "170",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651654,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8252366,
+          21.4257583
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "174",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651655,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8253432,
+          21.4257733
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "173",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651661,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8233597,
+          21.4246037
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "106",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651662,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8232927,
+          21.4245001
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "107",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651677,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.823794,
+          21.4232223
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "123",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651678,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.823695,
+          21.4232587
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "122",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651679,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8235106,
+          21.4233264
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "120",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651750,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8270416,
+          21.4254558
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "27",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651752,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8267519,
+          21.4251155
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "38",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651772,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8250287,
+          21.4236708
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "36",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651773,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8241269,
+          21.422429
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "66",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651774,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8243216,
+          21.4225452
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "65",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651775,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8253101,
+          21.4209576
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651801,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8238909,
+          21.421901
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "72",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651802,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8239877,
+          21.4215062
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "78",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651840,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8245926,
+          21.4208312
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "85",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651841,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8246388,
+          21.4208221
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "86",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8783651842,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8248296,
+          21.4207846
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "87",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8785532075,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.826334,
+          21.4246346
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "156",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8785532078,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8263306,
+          21.4247557
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "157",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8785532080,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8232186,
+          21.4234074
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8785532081,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8231904,
+          21.4235173
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "117",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8785532084,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8233252,
+          21.4234692
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "118",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8785532085,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8239086,
+          21.4232601
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "124",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8785532088,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8239383,
+          21.4231418
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8796052404,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8253077,
+          21.4209562
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8873173646,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8255669,
+          21.4196634
+        ]
+      },
+      "properties": {
+        "name_ar": "باب الحرم",
+        "name_en": "Haram Gate",
+        "gate_number": "",
+        "wheelchair": "yes"
+      }
+    }
+  ]
+}

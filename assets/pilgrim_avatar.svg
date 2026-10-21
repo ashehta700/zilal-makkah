@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 160" width="120" height="160">
+  <defs>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <linearGradient id="ihramGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="60%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#CBD5E1" />
+    </linearGradient>
+    <radialGradient id="baseGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.9" />
+      <stop offset="70%" stop-color="#047857" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#064E3B" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Glowing Ground Navigation Beacon -->
+  <ellipse cx="60" cy="145" rx="45" ry="12" fill="url(#baseGlow)" />
+  <ellipse cx="60" cy="145" rx="25" ry="7" fill="none" stroke="#34D399" stroke-width="2" />
+  <polygon points="60,128 54,142 66,142" fill="#10B981" />
+
+  <!-- Pilgrim Body in Ihram -->
+  <!-- Lower Ihram Sheet (Izar) -->
+  <path d="M42,95 L40,135 Q60,140 80,135 L78,95 Z" fill="url(#ihramGrad)" stroke="#94A3B8" stroke-width="1.5" />
+  <!-- Fold creases in Izar -->
+  <path d="M52,100 L50,134" stroke="#CBD5E1" stroke-width="1.5" fill="none" />
+  <path d="M68,100 L70,134" stroke="#CBD5E1" stroke-width="1.5" fill="none" />
+
+  <!-- Upper Ihram Sheet (Rida) draped over left shoulder with right shoulder bare (Idtiba) -->
+  <path d="M38,55 Q35,75 42,98 L78,98 Q85,75 80,55 Q60,50 38,55 Z" fill="url(#ihramGrad)" stroke="#94A3B8" stroke-width="1.5" />
+  <!-- Bare right shoulder (Sunnah for Tawaf) -->
+  <path d="M74,52 Q82,54 84,65 Q83,75 78,82 Q75,70 74,52 Z" fill="#D4A373" />
+  <!-- Draped cloth diagonal fold -->
+  <path d="M38,55 Q55,75 78,98" stroke="#94A3B8" stroke-width="2" fill="none" />
+  <path d="M45,62 Q60,80 75,98" stroke="#CBD5E1" stroke-width="1.5" fill="none" />
+
+  <!-- Head -->
+  <ellipse cx="60" cy="35" rx="14" ry="17" fill="#D4A373" stroke="#B08968" stroke-width="1.2" />
+  <!-- Short hair -->
+  <path d="M48,32 Q60,18 72,32 Q60,24 48,32 Z" fill="#27272A" />
+
+  <!-- Floating Green Crescent Badge -->
+  <circle cx="92" cy="30" r="16" fill="#0F4C3A" stroke="#D4AF37" stroke-width="2" filter="url(#glow)" />
+  <text x="92" y="36" font-size="14" text-anchor="middle" fill="#FDE68A" font-family="sans-serif">🕋</text>
+</svg>

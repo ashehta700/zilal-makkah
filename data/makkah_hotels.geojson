@@ -1,0 +1,5968 @@
+{
+  "type": "FeatureCollection",
+  "name": "Makkah_Hotels_Verified_Snapped",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "hotel_tower_makkah_clock_royal",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.825386,
+          21.418064
+        ]
+      },
+      "properties": {
+        "name_ar": "برج فندق ساعة مكة الملكي (فيرمونت)",
+        "name_en": "Makkah Clock Royal Tower - Fairmont",
+        "stars": "5 نجوم فاخر",
+        "rooms": "858",
+        "dist_to_kaaba_meters": 501,
+        "walk_mins_est": 6.7,
+        "building_height": 601.0,
+        "building_osm_id": "tower_makkah_clock_royal",
+        "is_landmark": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel_tower_zamzam_pullman",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.824809,
+          21.418316
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق بولمان زمزم مكة (برج زمزم)",
+        "name_en": "Pullman ZamZam Makkah",
+        "stars": "5 نجوم",
+        "rooms": "1315",
+        "dist_to_kaaba_meters": 488,
+        "walk_mins_est": 6.5,
+        "building_height": 279.0,
+        "building_osm_id": "tower_zamzam_pullman",
+        "is_landmark": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel_tower_hajar_movenpick",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.824559,
+          21.417716
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق موفنبيك برج هاجر مكة",
+        "name_en": "Mövenpick Hotel Hajar Tower Makkah",
+        "stars": "5 نجوم",
+        "rooms": "1200",
+        "dist_to_kaaba_meters": 559,
+        "walk_mins_est": 7.5,
+        "building_height": 279.0,
+        "building_osm_id": "tower_hajar_movenpick",
+        "is_landmark": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel_tower_maqam_swissotel",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.825813,
+          21.418168
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق سويس أوتيل المقام مكة",
+        "name_en": "Swissôtel Al Maqam Makkah",
+        "stars": "5 نجوم",
+        "rooms": "1624",
+        "dist_to_kaaba_meters": 485,
+        "walk_mins_est": 6.5,
+        "building_height": 250.0,
+        "building_osm_id": "tower_maqam_swissotel",
+        "is_landmark": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel_tower_qibla_swissotel",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.825813,
+          21.417568
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق سويس أوتيل مكة (برج القبلة)",
+        "name_en": "Swissôtel Makkah - Al Qibla Tower",
+        "stars": "5 نجوم",
+        "rooms": "1487",
+        "dist_to_kaaba_meters": 551,
+        "walk_mins_est": 7.3,
+        "building_height": 250.0,
+        "building_osm_id": "tower_qibla_swissotel",
+        "is_landmark": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel_tower_marwah_rotana",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.826315,
+          21.418419
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق المروة ريحان من روتانا (برج المروة)",
+        "name_en": "Al Marwa Rayhaan by Rotana",
+        "stars": "5 نجوم",
+        "rooms": "516",
+        "dist_to_kaaba_meters": 455,
+        "walk_mins_est": 6.1,
+        "building_height": 250.0,
+        "building_osm_id": "tower_marwah_rotana",
+        "is_landmark": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel_tower_safa_raffles",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.825565,
+          21.418669
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق قصر مكة رافلز (برج الصفا)",
+        "name_en": "Raffles Makkah Palace",
+        "stars": "5 نجوم فاخر",
+        "rooms": "214",
+        "dist_to_kaaba_meters": 432,
+        "walk_mins_est": 5.8,
+        "building_height": 250.0,
+        "building_osm_id": "tower_safa_raffles",
+        "is_landmark": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel_podium_abraj_al_bait",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.825285,
+          21.417924
+        ]
+      },
+      "properties": {
+        "name_ar": "مجمع أبراج البيت التجاري والسكني",
+        "name_en": "Abraj Al-Bait Commercial Center",
+        "stars": "مجمع فاخر",
+        "rooms": "مجمع",
+        "dist_to_kaaba_meters": 518,
+        "walk_mins_est": 6.9,
+        "building_height": 48.0,
+        "building_osm_id": "podium_abraj_al_bait",
+        "is_landmark": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel_b_142133165",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822797,
+          21.421029
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق دار التوحيد إنتركونتيننتال",
+        "name_en": "Dar Al Tawhid Intercontinental",
+        "stars": "5 نجوم فاخر",
+        "rooms": "600",
+        "dist_to_kaaba_meters": 386,
+        "walk_mins_est": 5.1,
+        "building_height": 70.0,
+        "building_osm_id": "142133165",
+        "is_landmark": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel_b_210564288",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.826364,
+          21.419436
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق أبراج الصفوة (الصفوة رويال أوركيد)",
+        "name_en": "Al Safwah Royale Orchid",
+        "stars": "5 نجوم",
+        "rooms": "1200",
+        "dist_to_kaaba_meters": 343,
+        "walk_mins_est": 4.6,
+        "building_height": 160.0,
+        "building_osm_id": "210564288",
+        "is_landmark": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel_b_142230841",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8196,
+          21.424986
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق أنجم مكة الشبيكة",
+        "name_en": "Anjum Hotel Makkah",
+        "stars": "5 نجوم",
+        "rooms": "1748",
+        "dist_to_kaaba_meters": 731,
+        "walk_mins_est": 9.7,
+        "building_height": 100.0,
+        "building_osm_id": "142230841",
+        "is_landmark": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel_b_187627203",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822098,
+          21.419702
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق كونراد مكة (جبل عمر)",
+        "name_en": "Conrad Makkah Jabal Omar",
+        "stars": "5 نجوم فاخر",
+        "rooms": "438",
+        "dist_to_kaaba_meters": 524,
+        "walk_mins_est": 7.0,
+        "building_height": 100.0,
+        "building_osm_id": "187627203",
+        "is_landmark": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel_b_521056694",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.819724,
+          21.422694
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق ومركز مؤتمرات هيلتون جبل عمر مكة",
+        "name_en": "Hilton Makkah Convention Hotel",
+        "stars": "5 نجوم",
+        "rooms": "764",
+        "dist_to_kaaba_meters": 665,
+        "walk_mins_est": 8.9,
+        "building_height": 55.0,
+        "building_osm_id": "521056694",
+        "is_landmark": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel_b_401006621",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.821395,
+          21.421049
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق جبل عمر حياة ريجنسي مكة",
+        "name_en": "Jabal Omar Hyatt Regency Makkah",
+        "stars": "5 نجوم",
+        "rooms": "656",
+        "dist_to_kaaba_meters": 519,
+        "walk_mins_est": 6.9,
+        "building_height": 100.0,
+        "building_osm_id": "401006621",
+        "is_landmark": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel_b_631877879",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.818445,
+          21.422171
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق العنوان جبل عمر مكة",
+        "name_en": "Address Jabal Omar Makkah",
+        "stars": "5 نجوم فاخر",
+        "rooms": "1484",
+        "dist_to_kaaba_meters": 798,
+        "walk_mins_est": 10.6,
+        "building_height": 145.0,
+        "building_osm_id": "631877879",
+        "is_landmark": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel_b_187627118",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.818976,
+          21.423576
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق ماريوت جبل عمر مكة",
+        "name_en": "Makkah Marriott Hotel",
+        "stars": "5 نجوم",
+        "rooms": "426",
+        "dist_to_kaaba_meters": 751,
+        "walk_mins_est": 10.0,
+        "building_height": 55.0,
+        "building_osm_id": "187627118",
+        "is_landmark": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel_b_631874323",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.81798,
+          21.423354
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق دبل تري من هيلتون جبل عمر",
+        "name_en": "DoubleTree by Hilton Jabal Omar",
+        "stars": "5 نجوم",
+        "rooms": "676",
+        "dist_to_kaaba_meters": 850,
+        "walk_mins_est": 11.3,
+        "building_height": 115.0,
+        "building_osm_id": "631874323",
+        "is_landmark": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hotel_b_642934829",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.813639,
+          21.427399
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق أبراج التيسير مكة",
+        "name_en": "Al Tayseer Towers Hotel",
+        "stars": "4 نجوم",
+        "rooms": "800",
+        "dist_to_kaaba_meters": 1401,
+        "walk_mins_est": 18.7,
+        "building_height": 55.0,
+        "building_osm_id": "642934829",
+        "is_landmark": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 187620551,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.828207,
+          21.420044
+        ]
+      },
+      "properties": {
+        "name_ar": "فنادق ميره الساحة",
+        "name_en": "Mira Saha Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 345,
+        "walk_mins_est": 4.6,
+        "building_height": 42.0,
+        "building_osm_id": "187620551",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 187620383,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.828099,
+          21.419886
+        ]
+      },
+      "properties": {
+        "name_ar": "Al Massa Hotel",
+        "name_en": "Al Massa Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 353,
+        "walk_mins_est": 4.7,
+        "building_height": 42.0,
+        "building_osm_id": "187620383",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 187620440,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.828266,
+          21.419905
+        ]
+      },
+      "properties": {
+        "name_ar": "Abdul Aziz Abbas Huwait Hotel 1",
+        "name_en": "Abdul Aziz Abbas Huwait Hotel 1",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 361,
+        "walk_mins_est": 4.8,
+        "building_height": 42.0,
+        "building_osm_id": "187620440",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 374569579,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829161,
+          21.420227
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق مريديان",
+        "name_en": "Le Meridien Makkah Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 399,
+        "walk_mins_est": 5.3,
+        "building_height": 75.0,
+        "building_osm_id": "374569579",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 187620395,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.827877,
+          21.41906
+        ]
+      },
+      "properties": {
+        "name_ar": "Al Jawar Tower Hotel",
+        "name_en": "Al Jawar Tower Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 422,
+        "walk_mins_est": 5.6,
+        "building_height": 115.0,
+        "building_osm_id": "187620395",
+        "is_landmark": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2655309590,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.826697,
+          21.418851
+        ]
+      },
+      "properties": {
+        "name_ar": "Dar Al Eiman Royal Hotel",
+        "name_en": "Dar Al Eiman Royal Hotel",
+        "stars": "5",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 411,
+        "walk_mins_est": 5.5,
+        "building_height": 120.0,
+        "building_osm_id": "210564287",
+        "is_landmark": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 643174665,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829318,
+          21.420164
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق ندى الضيافة",
+        "name_en": "Nada Al Deafah Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 416,
+        "walk_mins_est": 5.5,
+        "building_height": 42.0,
+        "building_osm_id": "643174665",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 374569580,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.828982,
+          21.419788
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق نوازي اجياد",
+        "name_en": "Nawazi Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 419,
+        "walk_mins_est": 5.6,
+        "building_height": 42.0,
+        "building_osm_id": "374569580",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 643174662,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829178,
+          21.419996
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق جوهرة الوعد",
+        "name_en": "Jawahrat Al Waed Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 417,
+        "walk_mins_est": 5.6,
+        "building_height": 42.0,
+        "building_osm_id": "643174662",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 374569587,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829813,
+          21.420441
+        ]
+      },
+      "properties": {
+        "name_ar": "Jawad Al-Taj Hotel",
+        "name_en": "Jawad Al-Taj Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 440,
+        "walk_mins_est": 5.9,
+        "building_height": 42.0,
+        "building_osm_id": "374569587",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 643174663,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829554,
+          21.420046
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق",
+        "name_en": "Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 443,
+        "walk_mins_est": 5.9,
+        "building_height": 55.0,
+        "building_osm_id": "643174663",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 657696378,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829927,
+          21.420415
+        ]
+      },
+      "properties": {
+        "name_ar": "Dar Abdullah Al Mashat",
+        "name_en": "Dar Abdullah Al Mashat",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 451,
+        "walk_mins_est": 6.0,
+        "building_height": 42.0,
+        "building_osm_id": "657696378",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640490770,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.828663,
+          21.419104
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق اشراق اجياد",
+        "name_en": "Sunrise Ajyad Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 457,
+        "walk_mins_est": 6.1,
+        "building_height": 42.0,
+        "building_osm_id": "640490770",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640493458,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829762,
+          21.42016
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق أزكى الصفا",
+        "name_en": "Azka Al Safa Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 452,
+        "walk_mins_est": 6.0,
+        "building_height": 42.0,
+        "building_osm_id": "640493458",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640919999,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829994,
+          21.420483
+        ]
+      },
+      "properties": {
+        "name_ar": "Retaj Al-Safwa Hotel",
+        "name_en": "Retaj Al-Safwa Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 453,
+        "walk_mins_est": 6.0,
+        "building_height": 42.0,
+        "building_osm_id": "640919999",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5434306441,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.824372,
+          21.418791
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق إيلاف كندة",
+        "name_en": "Elaf Kinda Hotel",
+        "stars": "5",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 454,
+        "walk_mins_est": 6.1,
+        "building_height": 63.0,
+        "building_osm_id": "457669763",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640920000,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.83006,
+          21.420464
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق كنوز اجيال",
+        "name_en": "Knooz Ajiad Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 460,
+        "walk_mins_est": 6.1,
+        "building_height": 42.0,
+        "building_osm_id": "640920000",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 657730764,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829908,
+          21.420206
+        ]
+      },
+      "properties": {
+        "name_ar": "Banonah Hotel",
+        "name_en": "Banonah Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 462,
+        "walk_mins_est": 6.2,
+        "building_height": 42.0,
+        "building_osm_id": "657730764",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640921423,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.830164,
+          21.420491
+        ]
+      },
+      "properties": {
+        "name_ar": "Al Saraya Hotel",
+        "name_en": "Al Saraya Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 468,
+        "walk_mins_est": 6.2,
+        "building_height": 42.0,
+        "building_osm_id": "640921423",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 539477577,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.823525,
+          21.41901
+        ]
+      },
+      "properties": {
+        "name_ar": "Makkah Millennium Hotel",
+        "name_en": "Makkah Millennium Hotel",
+        "stars": "5",
+        "rooms": "614",
+        "dist_to_kaaba_meters": 476,
+        "walk_mins_est": 6.3,
+        "building_height": 95.0,
+        "building_osm_id": "539477577",
+        "is_landmark": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640921920,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.830287,
+          21.420379
+        ]
+      },
+      "properties": {
+        "name_ar": "Anwar Deafah Hotel",
+        "name_en": "Anwar Deafah Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 485,
+        "walk_mins_est": 6.5,
+        "building_height": 42.0,
+        "building_osm_id": "640921920",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640920002,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.830336,
+          21.420459
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق اجياد الجوار",
+        "name_en": "Ajyad al Jiwar Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 485,
+        "walk_mins_est": 6.5,
+        "building_height": 42.0,
+        "building_osm_id": "640920002",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 374569582,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.830443,
+          21.420406
+        ]
+      },
+      "properties": {
+        "name_ar": "Mira Ajyad Hotel",
+        "name_en": "Mira Ajyad Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 498,
+        "walk_mins_est": 6.6,
+        "building_height": 42.0,
+        "building_osm_id": "374569582",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 374569576,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.82856,
+          21.418597
+        ]
+      },
+      "properties": {
+        "name_ar": "Al Momazaz Hotel",
+        "name_en": "Al Momazaz Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 500,
+        "walk_mins_est": 6.7,
+        "building_height": 42.0,
+        "building_osm_id": "374569576",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640922513,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.830559,
+          21.420574
+        ]
+      },
+      "properties": {
+        "name_ar": "Dana Al Taj Hotel",
+        "name_en": "Dana Al Taj Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 500,
+        "walk_mins_est": 6.7,
+        "building_height": 42.0,
+        "building_osm_id": "640922513",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 678882104,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.828663,
+          21.41855
+        ]
+      },
+      "properties": {
+        "name_ar": "Kinana Al Taqwa Hotel",
+        "name_en": "Kinana Al Taqwa Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 509,
+        "walk_mins_est": 6.8,
+        "building_height": 42.0,
+        "building_osm_id": "678882104",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 374569574,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.828766,
+          21.418427
+        ]
+      },
+      "properties": {
+        "name_ar": "Ohrah Alhar Hotel",
+        "name_en": "Ohrah Alhar Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 527,
+        "walk_mins_est": 7.0,
+        "building_height": 42.0,
+        "building_osm_id": "374569574",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640929702,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.830859,
+          21.420656
+        ]
+      },
+      "properties": {
+        "name_ar": "Snood Ajyad Hotel",
+        "name_en": "Snood Ajyad Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 524,
+        "walk_mins_est": 7.0,
+        "building_height": 42.0,
+        "building_osm_id": "640929702",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 187609814,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.831005,
+          21.420719
+        ]
+      },
+      "properties": {
+        "name_ar": "Dar Jyad Hotel",
+        "name_en": "Dar Jyad Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 536,
+        "walk_mins_est": 7.1,
+        "building_height": 42.0,
+        "building_osm_id": "187609814",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640921424,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.830744,
+          21.420399
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق السرايا اجياد",
+        "name_en": "Saraya Ajyad Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 526,
+        "walk_mins_est": 7.0,
+        "building_height": 42.0,
+        "building_osm_id": "640921424",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 374569573,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.828847,
+          21.418097
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق إيلاف أجياد",
+        "name_en": "Elaf Ajyad Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 563,
+        "walk_mins_est": 7.5,
+        "building_height": 42.0,
+        "building_osm_id": "374569573",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640929706,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.831435,
+          21.420706
+        ]
+      },
+      "properties": {
+        "name_ar": "Al Barakah Hotel",
+        "name_en": "Al Barakah Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 577,
+        "walk_mins_est": 7.7,
+        "building_height": 42.0,
+        "building_osm_id": "640929706",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640929710,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.831553,
+          21.420716
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق اجیاد الذهبی",
+        "name_en": "Ajyad Golden Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 589,
+        "walk_mins_est": 7.9,
+        "building_height": 42.0,
+        "building_osm_id": "640929710",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 187627120,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.828271,
+          21.417281
+        ]
+      },
+      "properties": {
+        "name_ar": "مكارم اجياد مكة",
+        "name_en": "Makarem Ajyad Makkah Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 620,
+        "walk_mins_est": 8.3,
+        "building_height": 65.0,
+        "building_osm_id": "187627120",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 369224185,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829235,
+          21.417676
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق دار الإيمان أجياد",
+        "name_en": "Dar Al Eiman Ajyad Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 623,
+        "walk_mins_est": 8.3,
+        "building_height": 42.0,
+        "building_osm_id": "369224185",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 778622457,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829419,
+          21.417689
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق دار الرحمة دانة",
+        "name_en": "Dar Al Rahma Danah Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 632,
+        "walk_mins_est": 8.4,
+        "building_height": 42.0,
+        "building_osm_id": "778622457",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640933532,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.831973,
+          21.420582
+        ]
+      },
+      "properties": {
+        "name_ar": "Ajwad Ajyad Hotel",
+        "name_en": "Ajwad Ajyad Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 634,
+        "walk_mins_est": 8.5,
+        "building_height": 42.0,
+        "building_osm_id": "640933532",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 678873617,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829484,
+          21.417357
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق الثريا",
+        "name_en": "Al Thoraya Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 666,
+        "walk_mins_est": 8.9,
+        "building_height": 42.0,
+        "building_osm_id": "678873617",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640826648,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822642,
+          21.417359
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق الغالي",
+        "name_en": "Hotel Al Ghali",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 679,
+        "walk_mins_est": 9.1,
+        "building_height": 42.0,
+        "building_osm_id": "640826648",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 187627308,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.828413,
+          21.416703
+        ]
+      },
+      "properties": {
+        "name_ar": "Rayyana Ajyad Hotel",
+        "name_en": "Rayyana Ajyad Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 685,
+        "walk_mins_est": 9.1,
+        "building_height": 42.0,
+        "building_osm_id": "187627308",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 678876860,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829696,
+          21.417281
+        ]
+      },
+      "properties": {
+        "name_ar": "Al Battal Hotel",
+        "name_en": "Al Battal Hotel",
+        "stars": "2",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 685,
+        "walk_mins_est": 9.1,
+        "building_height": 42.0,
+        "building_osm_id": "678876860",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640826651,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822642,
+          21.417287
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق السلطان",
+        "name_en": "Emaar Al-Sultan Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 686,
+        "walk_mins_est": 9.1,
+        "building_height": 42.0,
+        "building_osm_id": "640826651",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640868138,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.828617,
+          21.416797
+        ]
+      },
+      "properties": {
+        "name_ar": "Gawharat Al Husain Hotel",
+        "name_en": "Gawharat Al Husain Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 683,
+        "walk_mins_est": 9.1,
+        "building_height": 42.0,
+        "building_osm_id": "640868138",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 187627306,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.828305,
+          21.41655
+        ]
+      },
+      "properties": {
+        "name_ar": "Elaf Al Mashaer Hotel",
+        "name_en": "Elaf Al Mashaer Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 698,
+        "walk_mins_est": 9.3,
+        "building_height": 42.0,
+        "building_osm_id": "187627306",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640825591,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822634,
+          21.417193
+        ]
+      },
+      "properties": {
+        "name_ar": "بيتي 5",
+        "name_en": "Baity 5 Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 695,
+        "walk_mins_est": 9.3,
+        "building_height": 42.0,
+        "building_osm_id": "640825591",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640870383,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.828705,
+          21.416684
+        ]
+      },
+      "properties": {
+        "name_ar": "Malak Manazil Al Kiram Hotel",
+        "name_en": "Malak Manazil Al Kiram Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 698,
+        "walk_mins_est": 9.3,
+        "building_height": 42.0,
+        "building_osm_id": "640870383",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 678873945,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829868,
+          21.41718
+        ]
+      },
+      "properties": {
+        "name_ar": "Al Thuria Grand Hotel",
+        "name_en": "Al Thuria Grand Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 704,
+        "walk_mins_est": 9.4,
+        "building_height": 42.0,
+        "building_osm_id": "678873945",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 187627140,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8288,
+          21.416586
+        ]
+      },
+      "properties": {
+        "name_ar": "Amjad Al Jazira Hotel",
+        "name_en": "Amjad Al Jazira Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 712,
+        "walk_mins_est": 9.5,
+        "building_height": 42.0,
+        "building_osm_id": "187627140",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 375396893,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822612,
+          21.417031
+        ]
+      },
+      "properties": {
+        "name_ar": "العلیان الحرم ہوٹل",
+        "name_en": "Al Olayan Al Haram",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 712,
+        "walk_mins_est": 9.5,
+        "building_height": 42.0,
+        "building_osm_id": "375396893",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640821296,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822689,
+          21.416796
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق أريج الفلاح",
+        "name_en": "Hotel Areej Al Falah",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 730,
+        "walk_mins_est": 9.7,
+        "building_height": 42.0,
+        "building_osm_id": "640821296",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640817401,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822685,
+          21.416669
+        ]
+      },
+      "properties": {
+        "name_ar": "لؤلؤ الخليل",
+        "name_en": "Loulou Al-Khalil Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 743,
+        "walk_mins_est": 9.9,
+        "building_height": 42.0,
+        "building_osm_id": "640817401",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 631872731,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.819565,
+          21.425292
+        ]
+      },
+      "properties": {
+        "name_ar": "شذا مكة",
+        "name_en": "شذا مكة",
+        "stars": "5",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 748,
+        "walk_mins_est": 10.0,
+        "building_height": 75.0,
+        "building_osm_id": "631872731",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 187627185,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829068,
+          21.416329
+        ]
+      },
+      "properties": {
+        "name_ar": "Al Fajer Al Badya 2 Hotel",
+        "name_en": "Al Fajer Al Badya 2 Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 749,
+        "walk_mins_est": 10.0,
+        "building_height": 42.0,
+        "building_osm_id": "187627185",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 678859338,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.828043,
+          21.416061
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق رويال ماجستك",
+        "name_en": "Royal Majestic Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 742,
+        "walk_mins_est": 9.9,
+        "building_height": 42.0,
+        "building_osm_id": "678859338",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640829677,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822652,
+          21.416485
+        ]
+      },
+      "properties": {
+        "name_ar": "Tharawat Diyafat Al Rahman Hotel",
+        "name_en": "Tharawat Diyafat Al Rahman Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 762,
+        "walk_mins_est": 10.2,
+        "building_height": 42.0,
+        "building_osm_id": "640829677",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640829680,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822612,
+          21.416392
+        ]
+      },
+      "properties": {
+        "name_ar": "Hotel Nawarat Al-Shams 1",
+        "name_en": "Hotel Nawarat Al-Shams 1",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 773,
+        "walk_mins_est": 10.3,
+        "building_height": 42.0,
+        "building_osm_id": "640829680",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 187627206,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829356,
+          21.416196
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق زوار البيت",
+        "name_en": "Zuwar Al Bait Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 774,
+        "walk_mins_est": 10.3,
+        "building_height": 42.0,
+        "building_osm_id": "187627206",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 187620634,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.819536,
+          21.425568
+        ]
+      },
+      "properties": {
+        "name_ar": "Sheraton Makkah - Jabal Al Kaaba Hotel",
+        "name_en": "Sheraton Makkah - Jabal Al Kaaba Hotel",
+        "stars": "5",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 763,
+        "walk_mins_est": 10.2,
+        "building_height": 95.0,
+        "building_osm_id": "187620634",
+        "is_landmark": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640829682,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822549,
+          21.416291
+        ]
+      },
+      "properties": {
+        "name_ar": "Marsa Al Jariah Hotel",
+        "name_en": "Marsa Al Jariah Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 786,
+        "walk_mins_est": 10.5,
+        "building_height": 42.0,
+        "building_osm_id": "640829682",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 187627310,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829449,
+          21.415787
+        ]
+      },
+      "properties": {
+        "name_ar": "Jawharat Al Bait Hotel",
+        "name_en": "Jawharat Al Bait Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 820,
+        "walk_mins_est": 10.9,
+        "building_height": 55.0,
+        "building_osm_id": "187627162",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 678873615,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829863,
+          21.41622
+        ]
+      },
+      "properties": {
+        "name_ar": "Rawabi Shamik Hotel",
+        "name_en": "Rawabi Shamik Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 796,
+        "walk_mins_est": 10.6,
+        "building_height": 42.0,
+        "building_osm_id": "678873615",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640817398,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822569,
+          21.416124
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق ضيافة مبارك",
+        "name_en": "Diyafat Mubarak Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 801,
+        "walk_mins_est": 10.7,
+        "building_height": 42.0,
+        "building_osm_id": "640817398",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 187620481,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.819305,
+          21.426031
+        ]
+      },
+      "properties": {
+        "name_ar": "نور الصلاح",
+        "name_en": "Noor Al-Salah Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 808,
+        "walk_mins_est": 10.8,
+        "building_height": 42.0,
+        "building_osm_id": "187620481",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 642285002,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829859,
+          21.415961
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق أمجاد أجياد",
+        "name_en": "Amjad Ajad Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 821,
+        "walk_mins_est": 10.9,
+        "building_height": 42.0,
+        "building_osm_id": "642285002",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 187620550,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.819205,
+          21.426151
+        ]
+      },
+      "properties": {
+        "name_ar": "Hidaya Al-Ahbab Hotel",
+        "name_en": "Hidaya Al-Ahbab Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 824,
+        "walk_mins_est": 11.0,
+        "building_height": 40.0,
+        "building_osm_id": "187620550",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640839378,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.82257,
+          21.415736
+        ]
+      },
+      "properties": {
+        "name_ar": "Hotel Fawzia Abdul Karem A. Ali",
+        "name_en": "Hotel Fawzia Abdul Karem A. Ali",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 840,
+        "walk_mins_est": 11.2,
+        "building_height": 42.0,
+        "building_osm_id": "640839378",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 782177959,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829912,
+          21.41572
+        ]
+      },
+      "properties": {
+        "name_ar": "Hotel Pearl Amar",
+        "name_en": "Hotel Pearl Amar",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 847,
+        "walk_mins_est": 11.3,
+        "building_height": 42.0,
+        "building_osm_id": "782177959",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640839379,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822533,
+          21.415623
+        ]
+      },
+      "properties": {
+        "name_ar": "Jowharat Al Misfalah",
+        "name_en": "Jowharat Al Misfalah",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 853,
+        "walk_mins_est": 11.4,
+        "building_height": 42.0,
+        "building_osm_id": "640839379",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640839375,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822534,
+          21.415524
+        ]
+      },
+      "properties": {
+        "name_ar": "Nawrat Shams Hotel 2",
+        "name_en": "Nawrat Shams Hotel 2",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 863,
+        "walk_mins_est": 11.5,
+        "building_height": 42.0,
+        "building_osm_id": "640839375",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 631874323,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.81806,
+          21.423041
+        ]
+      },
+      "properties": {
+        "name_ar": "دبل ترى باي هيلتون جبل عمر مكة",
+        "name_en": "DoubleTree by Hilton Jabal Omar Makkah",
+        "stars": "5",
+        "rooms": "676",
+        "dist_to_kaaba_meters": 838,
+        "walk_mins_est": 11.2,
+        "building_height": 55.0,
+        "building_osm_id": "734216314",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 782177779,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829843,
+          21.415483
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق صرح المنامة 5",
+        "name_en": "Sarh Al Manamah Hotel 5",
+        "stars": "1",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 867,
+        "walk_mins_est": 11.6,
+        "building_height": 42.0,
+        "building_osm_id": "782177779",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640839376,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822422,
+          21.415396
+        ]
+      },
+      "properties": {
+        "name_ar": "Hotel Saqayat Al-Khalil 2",
+        "name_en": "Hotel Saqayat Al-Khalil 2",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 880,
+        "walk_mins_est": 11.7,
+        "building_height": 42.0,
+        "building_osm_id": "640839376",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640888427,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.828182,
+          21.414962
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق الشهداء",
+        "name_en": "Al Shohada Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 864,
+        "walk_mins_est": 11.5,
+        "building_height": 42.0,
+        "building_osm_id": "640888427",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 663955838,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.823164,
+          21.414977
+        ]
+      },
+      "properties": {
+        "name_ar": "Mohammed Saeed Al-Ghamdi Hotel",
+        "name_en": "Mohammed Saeed Al-Ghamdi Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 893,
+        "walk_mins_est": 11.9,
+        "building_height": 42.0,
+        "building_osm_id": "663955838",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 670008386,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.823412,
+          21.414845
+        ]
+      },
+      "properties": {
+        "name_ar": "زهرة البادية",
+        "name_en": "Zaharat AL Badiya",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 898,
+        "walk_mins_est": 12.0,
+        "building_height": 42.0,
+        "building_osm_id": "670008386",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640981229,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822797,
+          21.414965
+        ]
+      },
+      "properties": {
+        "name_ar": "Tharawat Wadi Ibrahim Hotel",
+        "name_en": "Tharawat Wadi Ibrahim Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 908,
+        "walk_mins_est": 12.1,
+        "building_height": 42.0,
+        "building_osm_id": "640981229",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640982998,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822382,
+          21.415054
+        ]
+      },
+      "properties": {
+        "name_ar": "محمد عبدالله الغماس",
+        "name_en": "Mohammed Abdullah Al Ghammas Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 916,
+        "walk_mins_est": 12.2,
+        "building_height": 42.0,
+        "building_osm_id": "640982998",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 663947918,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.823155,
+          21.414723
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق ريحانة",
+        "name_en": "Rehana Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 920,
+        "walk_mins_est": 12.3,
+        "building_height": 42.0,
+        "building_osm_id": "663947918",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640981230,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822776,
+          21.414788
+        ]
+      },
+      "properties": {
+        "name_ar": "Areej Al Wafa Hotel",
+        "name_en": "Areej Al Wafa Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 927,
+        "walk_mins_est": 12.4,
+        "building_height": 42.0,
+        "building_osm_id": "640981230",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 187627183,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.827262,
+          21.414174
+        ]
+      },
+      "properties": {
+        "name_ar": "Hotel Al Rayah Grand",
+        "name_en": "Hotel Al Rayah Grand",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 933,
+        "walk_mins_est": 12.4,
+        "building_height": 42.0,
+        "building_osm_id": "187627183",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640984923,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822368,
+          21.4149
+        ]
+      },
+      "properties": {
+        "name_ar": "Tharawat Al Andaloseya Hotel",
+        "name_en": "Tharawat Al Andaloseya Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 932,
+        "walk_mins_est": 12.4,
+        "building_height": 42.0,
+        "building_osm_id": "640984923",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640981231,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822787,
+          21.414656
+        ]
+      },
+      "properties": {
+        "name_ar": "Golden Al Abrar Hotel",
+        "name_en": "Golden Al Abrar Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 940,
+        "walk_mins_est": 12.5,
+        "building_height": 42.0,
+        "building_osm_id": "640981231",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 374648857,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.823096,
+          21.414485
+        ]
+      },
+      "properties": {
+        "name_ar": "Ayman Al Hijrah Hotel",
+        "name_en": "Ayman Al Hijrah Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 947,
+        "walk_mins_est": 12.6,
+        "building_height": 42.0,
+        "building_osm_id": "374648857",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 657704156,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822315,
+          21.414798
+        ]
+      },
+      "properties": {
+        "name_ar": "Hotel Maather Deafah",
+        "name_en": "Hotel Maather Deafah",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 945,
+        "walk_mins_est": 12.6,
+        "building_height": 42.0,
+        "building_osm_id": "657704156",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640903840,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.828126,
+          21.414206
+        ]
+      },
+      "properties": {
+        "name_ar": "Markad Ajyad Hotel",
+        "name_en": "Markad Ajyad Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 944,
+        "walk_mins_est": 12.6,
+        "building_height": 42.0,
+        "building_osm_id": "640903840",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 674465222,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.823401,
+          21.414377
+        ]
+      },
+      "properties": {
+        "name_ar": "Manar Al Huda Hotel",
+        "name_en": "Manar Al Huda Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 948,
+        "walk_mins_est": 12.6,
+        "building_height": 42.0,
+        "building_osm_id": "674465222",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640897664,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.827407,
+          21.41401
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق رمادا",
+        "name_en": "Ramada Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 953,
+        "walk_mins_est": 12.7,
+        "building_height": 42.0,
+        "building_osm_id": "640897664",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 674467394,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.823101,
+          21.414369
+        ]
+      },
+      "properties": {
+        "name_ar": "Malak Al Taqwa Hotel 2",
+        "name_en": "Malak Al Taqwa Hotel 2",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 959,
+        "walk_mins_est": 12.8,
+        "building_height": 42.0,
+        "building_osm_id": "674467394",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640903435,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.828066,
+          21.414007
+        ]
+      },
+      "properties": {
+        "name_ar": "نزل الخير 1",
+        "name_en": "Nozol Al Khair 1 Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 965,
+        "walk_mins_est": 12.9,
+        "building_height": 42.0,
+        "building_osm_id": "640903435",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 678742948,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.828256,
+          21.413966
+        ]
+      },
+      "properties": {
+        "name_ar": "Hotel Diamond Al Ahram",
+        "name_en": "Hotel Diamond Al Ahram",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 973,
+        "walk_mins_est": 13.0,
+        "building_height": 42.0,
+        "building_osm_id": "678742948",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640986590,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822601,
+          21.414496
+        ]
+      },
+      "properties": {
+        "name_ar": "Taj Al-Khalil Hotel",
+        "name_en": "Taj Al-Khalil Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 964,
+        "walk_mins_est": 12.9,
+        "building_height": 42.0,
+        "building_osm_id": "640986590",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 674465220,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.823357,
+          21.41418
+        ]
+      },
+      "properties": {
+        "name_ar": "غلا التاج",
+        "name_en": "Ghala Al Tag Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 970,
+        "walk_mins_est": 12.9,
+        "building_height": 42.0,
+        "building_osm_id": "674465220",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 657706442,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822254,
+          21.41456
+        ]
+      },
+      "properties": {
+        "name_ar": "Hotel Seqayt Al Bait",
+        "name_en": "Hotel Seqayt Al Bait",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 972,
+        "walk_mins_est": 13.0,
+        "building_height": 42.0,
+        "building_osm_id": "657706442",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 678747399,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.828361,
+          21.413965
+        ]
+      },
+      "properties": {
+        "name_ar": "Dura Al-Wisam Al-Dhabi Hotel 2",
+        "name_en": "Dura Al-Wisam Al-Dhabi Hotel 2",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 976,
+        "walk_mins_est": 13.0,
+        "building_height": 42.0,
+        "building_osm_id": "678747399",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 729355203,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829721,
+          21.414407
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق مواسم أجياد",
+        "name_en": "فندق مواسم أجياد",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 972,
+        "walk_mins_est": 13.0,
+        "building_height": 42.0,
+        "building_osm_id": "729355203",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 187627177,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.828607,
+          21.413947
+        ]
+      },
+      "properties": {
+        "name_ar": "Dura Al-Wisam Al-Dhabi Hotel",
+        "name_en": "Dura Al-Wisam Al-Dhabi Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 984,
+        "walk_mins_est": 13.1,
+        "building_height": 42.0,
+        "building_osm_id": "187627177",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 375395485,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.823602,
+          21.414027
+        ]
+      },
+      "properties": {
+        "name_ar": "Afwaj al Tawba 11",
+        "name_en": "Afwaj al Tawba 11",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 979,
+        "walk_mins_est": 13.1,
+        "building_height": 42.0,
+        "building_osm_id": "375395485",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 374648843,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.823107,
+          21.414148
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق ريادة الهجرة",
+        "name_en": "Al Rayada Al Hijrah Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 982,
+        "walk_mins_est": 13.1,
+        "building_height": 42.0,
+        "building_osm_id": "374648843",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640897666,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.827699,
+          21.413762
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق البشرى ٣",
+        "name_en": "Hotel Diyar Al Bushra 3",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 985,
+        "walk_mins_est": 13.1,
+        "building_height": 42.0,
+        "building_osm_id": "640897666",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 187627132,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.828943,
+          21.413995
+        ]
+      },
+      "properties": {
+        "name_ar": "أمجاد البيت",
+        "name_en": "Amjad Al Bait Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 988,
+        "walk_mins_est": 13.2,
+        "building_height": 42.0,
+        "building_osm_id": "187627132",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 678746604,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.828203,
+          21.413813
+        ]
+      },
+      "properties": {
+        "name_ar": "Manar Hussain Hotel",
+        "name_en": "Manar Hussain Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 989,
+        "walk_mins_est": 13.2,
+        "building_height": 42.0,
+        "building_osm_id": "678746604",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 187627133,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829108,
+          21.413981
+        ]
+      },
+      "properties": {
+        "name_ar": "Konouz Al Jazeerah Hotel",
+        "name_en": "Konouz Al Jazeerah Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 995,
+        "walk_mins_est": 13.3,
+        "building_height": 42.0,
+        "building_osm_id": "187627133",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 642293650,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.828089,
+          21.413783
+        ]
+      },
+      "properties": {
+        "name_ar": "Noran Hotel",
+        "name_en": "Noran Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 990,
+        "walk_mins_est": 13.2,
+        "building_height": 42.0,
+        "building_osm_id": "642293650",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 374648837,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822794,
+          21.414149
+        ]
+      },
+      "properties": {
+        "name_ar": "Tharawat El Mashaer Hotel Makkah",
+        "name_en": "Tharawat El Mashaer Hotel Makkah",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 992,
+        "walk_mins_est": 13.2,
+        "building_height": 42.0,
+        "building_osm_id": "374648837",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 374648841,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822511,
+          21.414249
+        ]
+      },
+      "properties": {
+        "name_ar": "Tahani Al-Haramain Hotel",
+        "name_en": "Tahani Al-Haramain Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 993,
+        "walk_mins_est": 13.2,
+        "building_height": 42.0,
+        "building_osm_id": "374648841",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 640897668,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.82749,
+          21.413664
+        ]
+      },
+      "properties": {
+        "name_ar": "Al Rayah Ajyad Hotel",
+        "name_en": "Al Rayah Ajyad Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 992,
+        "walk_mins_est": 13.2,
+        "building_height": 42.0,
+        "building_osm_id": "640897668",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 678746157,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.828381,
+          21.413794
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق سعداء",
+        "name_en": "Suadaa Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 995,
+        "walk_mins_est": 13.3,
+        "building_height": 42.0,
+        "building_osm_id": "678746157",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 375395484,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.823415,
+          21.413926
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق رحاب الاخير",
+        "name_en": "Final Rehab Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 996,
+        "walk_mins_est": 13.3,
+        "building_height": 42.0,
+        "building_osm_id": "375395484",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 805133235,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.823665,
+          21.413844
+        ]
+      },
+      "properties": {
+        "name_ar": "Asia Hotel",
+        "name_en": "Asia Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 997,
+        "walk_mins_est": 13.3,
+        "building_height": 42.0,
+        "building_osm_id": "805133235",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 187627155,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829284,
+          21.41395
+        ]
+      },
+      "properties": {
+        "name_ar": "درة دار الايمان",
+        "name_en": "Dorat Dar Al Eiman Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1004,
+        "walk_mins_est": 13.4,
+        "building_height": 42.0,
+        "building_osm_id": "187627155",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 375395473,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.828121,
+          21.413676
+        ]
+      },
+      "properties": {
+        "name_ar": "Sraya al Misk Hotel",
+        "name_en": "Sraya al Misk Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1002,
+        "walk_mins_est": 13.4,
+        "building_height": 42.0,
+        "building_osm_id": "375395473",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 657707893,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822098,
+          21.414347
+        ]
+      },
+      "properties": {
+        "name_ar": "Aemadat Al Zahab Hotel",
+        "name_en": "Aemadat Al Zahab Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1000,
+        "walk_mins_est": 13.3,
+        "building_height": 42.0,
+        "building_osm_id": "657707893",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 708329136,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.821661,
+          21.414456
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق ندى الخليل",
+        "name_en": "Al Nada Al Khalil Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1009,
+        "walk_mins_est": 13.5,
+        "building_height": 42.0,
+        "building_osm_id": "708329136",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13235955401,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822877,
+          21.413948
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق مآثر اللؤلؤة",
+        "name_en": "فندق مآثر اللؤلؤة",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1010,
+        "walk_mins_est": 13.5,
+        "building_height": 42.0,
+        "building_osm_id": "657706682",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 374648836,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.823021,
+          21.413913
+        ]
+      },
+      "properties": {
+        "name_ar": "زوار الحرمين",
+        "name_en": "Zowar Al Haramain Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1009,
+        "walk_mins_est": 13.5,
+        "building_height": 42.0,
+        "building_osm_id": "374648836",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 674433212,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.823432,
+          21.413771
+        ]
+      },
+      "properties": {
+        "name_ar": "Manar Al Khair Hotel",
+        "name_en": "Manar Al Khair Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1012,
+        "walk_mins_est": 13.5,
+        "building_height": 42.0,
+        "building_osm_id": "674433212",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 657707894,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.821957,
+          21.414277
+        ]
+      },
+      "properties": {
+        "name_ar": "Bashra Al Taj Hotel",
+        "name_en": "Bashra Al Taj Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1013,
+        "walk_mins_est": 13.5,
+        "building_height": 42.0,
+        "building_osm_id": "657707894",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 374648842,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822427,
+          21.414059
+        ]
+      },
+      "properties": {
+        "name_ar": "Dar Al Eman Al Khalil Hotel",
+        "name_en": "Dar Al Eman Al Khalil Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1016,
+        "walk_mins_est": 13.5,
+        "building_height": 42.0,
+        "building_osm_id": "657712721",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 187627135,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829477,
+          21.413874
+        ]
+      },
+      "properties": {
+        "name_ar": "قاهر الصحراء",
+        "name_en": "Gahir Al Sahrah Hotel 2",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1018,
+        "walk_mins_est": 13.6,
+        "building_height": 42.0,
+        "building_osm_id": "187627135",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 893455449,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.821425,
+          21.414516
+        ]
+      },
+      "properties": {
+        "name_ar": "Tharwat al Rushad Hotel",
+        "name_en": "Tharwat al Rushad Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1014,
+        "walk_mins_est": 13.5,
+        "building_height": 42.0,
+        "building_osm_id": "893455449",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1184809463,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.816603,
+          21.424542
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق الاباء",
+        "name_en": "Al-Ebaa Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1012,
+        "walk_mins_est": 13.5,
+        "building_height": 42.0,
+        "building_osm_id": "1184809463",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 657708539,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822052,
+          21.414164
+        ]
+      },
+      "properties": {
+        "name_ar": "Durrat Al Hud-Hud Hotel",
+        "name_en": "Durrat Al Hud-Hud Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1020,
+        "walk_mins_est": 13.6,
+        "building_height": 42.0,
+        "building_osm_id": "657708539",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 781547649,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.828125,
+          21.413447
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق منار الحسين",
+        "name_en": "Al Manar Ajyad Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1027,
+        "walk_mins_est": 13.7,
+        "building_height": 42.0,
+        "building_osm_id": "781547649",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 642291478,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829024,
+          21.413683
+        ]
+      },
+      "properties": {
+        "name_ar": "Sama Ajiyad Hotel",
+        "name_en": "Sama Ajiyad Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1024,
+        "walk_mins_est": 13.7,
+        "building_height": 42.0,
+        "building_osm_id": "642291478",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 187627205,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829777,
+          21.413793
+        ]
+      },
+      "properties": {
+        "name_ar": "Bakkah Al Salah Hotel",
+        "name_en": "Bakkah Al Salah Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1037,
+        "walk_mins_est": 13.8,
+        "building_height": 42.0,
+        "building_osm_id": "187627205",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 374648834,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822983,
+          21.413658
+        ]
+      },
+      "properties": {
+        "name_ar": "المنار الذهبي 2",
+        "name_en": "Al-Manar Golden 2",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1037,
+        "walk_mins_est": 13.8,
+        "building_height": 42.0,
+        "building_osm_id": "374648834",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 641241999,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822449,
+          21.41384
+        ]
+      },
+      "properties": {
+        "name_ar": "Al Olayan Golden Hotel",
+        "name_en": "Al Olayan Golden Hotel",
+        "stars": "N/A",
+        "rooms": "300",
+        "dist_to_kaaba_meters": 1037,
+        "walk_mins_est": 13.8,
+        "building_height": 42.0,
+        "building_osm_id": "641241999",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 893456548,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.821386,
+          21.414292
+        ]
+      },
+      "properties": {
+        "name_ar": "Mada al Omran Hotel",
+        "name_en": "Mada al Omran Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1038,
+        "walk_mins_est": 13.8,
+        "building_height": 42.0,
+        "building_osm_id": "893456548",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12809347166,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.824311,
+          21.413271
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق غندورة",
+        "name_en": "gandourah Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1045,
+        "walk_mins_est": 13.9,
+        "building_height": 55.0,
+        "building_osm_id": "1383530883",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 374648835,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822777,
+          21.413647
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق زهرة المسفلة",
+        "name_en": "Zahra al-Misfalah",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1045,
+        "walk_mins_est": 13.9,
+        "building_height": 42.0,
+        "building_osm_id": "374648835",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 375395474,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.828185,
+          21.413272
+        ]
+      },
+      "properties": {
+        "name_ar": "Al Rihab Ajyad Hotel",
+        "name_en": "Al Rihab Ajyad Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1047,
+        "walk_mins_est": 14.0,
+        "building_height": 42.0,
+        "building_osm_id": "375395474",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 657710250,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.821966,
+          21.413959
+        ]
+      },
+      "properties": {
+        "name_ar": "Amer Hotel",
+        "name_en": "Amer Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1045,
+        "walk_mins_est": 13.9,
+        "building_height": 42.0,
+        "building_osm_id": "657710250",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 375396894,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.816317,
+          21.424561
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق هبة الله",
+        "name_en": "Hibatullah Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1041,
+        "walk_mins_est": 13.9,
+        "building_height": 42.0,
+        "building_osm_id": "375396894",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 708329393,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.821558,
+          21.414132
+        ]
+      },
+      "properties": {
+        "name_ar": "Hera Hotel",
+        "name_en": "Hera Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1046,
+        "walk_mins_est": 13.9,
+        "building_height": 42.0,
+        "building_osm_id": "708329393",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 642291480,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.82928,
+          21.41354
+        ]
+      },
+      "properties": {
+        "name_ar": "Retaj Al Aafwa Hotel",
+        "name_en": "Retaj Al Aafwa Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1047,
+        "walk_mins_est": 14.0,
+        "building_height": 42.0,
+        "building_osm_id": "642291480",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 678751099,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829182,
+          21.413517
+        ]
+      },
+      "properties": {
+        "name_ar": "Rafdin Al Masi Hotel",
+        "name_en": "Rafdin Al Masi Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1046,
+        "walk_mins_est": 13.9,
+        "building_height": 42.0,
+        "building_osm_id": "678751099",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 641244973,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822318,
+          21.413747
+        ]
+      },
+      "properties": {
+        "name_ar": "Basma Ezam Hotel",
+        "name_en": "Basma Ezam Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1052,
+        "walk_mins_est": 14.0,
+        "building_height": 42.0,
+        "building_osm_id": "641244973",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6640154287,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829499,
+          21.413448
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق رفاف المشاعر الفندقية",
+        "name_en": "فندق رفاف المشاعر الفندقية",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1063,
+        "walk_mins_est": 14.2,
+        "building_height": 42.0,
+        "building_osm_id": "642290442",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 642830494,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829664,
+          21.431466
+        ]
+      },
+      "properties": {
+        "name_ar": "سيف اليماني",
+        "name_en": "Al Fajer Al Badea Hotel 3",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1056,
+        "walk_mins_est": 14.1,
+        "building_height": 42.0,
+        "building_osm_id": "642830494",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 511051323,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.821215,
+          21.414182
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق عرفات الذهبية",
+        "name_en": "arafat aldhahbiya hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1057,
+        "walk_mins_est": 14.1,
+        "building_height": 42.0,
+        "building_osm_id": "511051323",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 642291482,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829381,
+          21.413452
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق جوهرة دار الإيمان",
+        "name_en": "Jawharat Dar Al-Eiman Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1059,
+        "walk_mins_est": 14.1,
+        "building_height": 42.0,
+        "building_osm_id": "642291482",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 678639339,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.831013,
+          21.414055
+        ]
+      },
+      "properties": {
+        "name_ar": "Remas Al Zahabe Hotel",
+        "name_en": "Remas Al Zahabe Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1063,
+        "walk_mins_est": 14.2,
+        "building_height": 42.0,
+        "building_osm_id": "678639339",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 642832390,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.830738,
+          21.431073
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق مرجان الكرم",
+        "name_en": "Murjan Al Karam Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1059,
+        "walk_mins_est": 14.1,
+        "building_height": 42.0,
+        "building_osm_id": "642832390",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 187627191,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829821,
+          21.413535
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق المنارة",
+        "name_en": "Al Manarah Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1066,
+        "walk_mins_est": 14.2,
+        "building_height": 42.0,
+        "building_osm_id": "187627191",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 641847180,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.821908,
+          21.413799
+        ]
+      },
+      "properties": {
+        "name_ar": "Al-Ouda Al Mubaraka Hotel",
+        "name_en": "Al-Ouda Al Mubaraka Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1063,
+        "walk_mins_est": 14.2,
+        "building_height": 42.0,
+        "building_osm_id": "641847180",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 641211777,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.815979,
+          21.42395
+        ]
+      },
+      "properties": {
+        "name_ar": "شماء ام القرى",
+        "name_en": "Sama Umm Al Qura Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1063,
+        "walk_mins_est": 14.2,
+        "building_height": 42.0,
+        "building_osm_id": "641211777",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12809347185,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8242,
+          21.413087
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق نجمة الخليج",
+        "name_en": "najmat ul khalij Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1067,
+        "walk_mins_est": 14.2,
+        "building_height": 55.0,
+        "building_osm_id": "1383530886",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 779323918,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.830083,
+          21.431347
+        ]
+      },
+      "properties": {
+        "name_ar": "قصر الجنادرية",
+        "name_en": "Qasr al Janadriyah",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1059,
+        "walk_mins_est": 14.1,
+        "building_height": 42.0,
+        "building_osm_id": "779323918",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 374648833,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8229,
+          21.413374
+        ]
+      },
+      "properties": {
+        "name_ar": "Al Fajr Al Badie Hotel 1",
+        "name_en": "Al Fajr Al Badie Hotel 1",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1070,
+        "walk_mins_est": 14.3,
+        "building_height": 42.0,
+        "building_osm_id": "374648833",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 641246698,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822281,
+          21.413595
+        ]
+      },
+      "properties": {
+        "name_ar": "Yajid Hotel",
+        "name_en": "Yajid Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1069,
+        "walk_mins_est": 14.3,
+        "building_height": 42.0,
+        "building_osm_id": "641246698",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 779382365,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.81603,
+          21.424409
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق لمار الذهبي",
+        "name_en": "Golden Lamar Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1066,
+        "walk_mins_est": 14.2,
+        "building_height": 42.0,
+        "building_osm_id": "779382365",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 678752556,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829529,
+          21.41335
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق وليد",
+        "name_en": "Walid Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1075,
+        "walk_mins_est": 14.3,
+        "building_height": 42.0,
+        "building_osm_id": "678752556",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12809358518,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.824137,
+          21.412966
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق رحاب البستان 3",
+        "name_en": "rihab Al bustan Hotel 3",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1081,
+        "walk_mins_est": 14.4,
+        "building_height": 55.0,
+        "building_osm_id": "1383529360",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 729341369,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.831175,
+          21.413971
+        ]
+      },
+      "properties": {
+        "name_ar": "Nasamaat Ajyad Hotel",
+        "name_en": "Nasamaat Ajyad Hotel",
+        "stars": "3",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1079,
+        "walk_mins_est": 14.4,
+        "building_height": 42.0,
+        "building_osm_id": "729341369",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 674428907,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.823379,
+          21.413142
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق ماثر",
+        "name_en": "Maather Al Jiwaar Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1080,
+        "walk_mins_est": 14.4,
+        "building_height": 42.0,
+        "building_osm_id": "674428907",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1287217887,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.8282,
+          21.412959
+        ]
+      },
+      "properties": {
+        "name_ar": "Delma Youths Hotel 2",
+        "name_en": "Delma Youths Hotel 2",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1081,
+        "walk_mins_est": 14.4,
+        "building_height": 42.0,
+        "building_osm_id": "1287217887",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 642289708,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.830131,
+          21.413426
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق الشراع موده",
+        "name_en": "Hotel Al Sheera Mawaddah",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1088,
+        "walk_mins_est": 14.5,
+        "building_height": 42.0,
+        "building_osm_id": "642289708",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 642831092,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.830417,
+          21.431427
+        ]
+      },
+      "properties": {
+        "name_ar": "ميره الشعب",
+        "name_en": "Mira Sheab Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1081,
+        "walk_mins_est": 14.4,
+        "building_height": 42.0,
+        "building_osm_id": "642831092",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 369224180,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829543,
+          21.413208
+        ]
+      },
+      "properties": {
+        "name_ar": "Al Olayyan Mawaddah Hotel 2",
+        "name_en": "Al Olayyan Mawaddah Hotel 2",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1090,
+        "walk_mins_est": 14.5,
+        "building_height": 42.0,
+        "building_osm_id": "369224180",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 663931105,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822861,
+          21.413206
+        ]
+      },
+      "properties": {
+        "name_ar": "Qahir Al-Saharaa Hotel",
+        "name_en": "Qahir Al-Saharaa Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1089,
+        "walk_mins_est": 14.5,
+        "building_height": 42.0,
+        "building_osm_id": "663931105",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 779382189,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.815863,
+          21.424443
+        ]
+      },
+      "properties": {
+        "name_ar": "Manar al Azhar Hotel",
+        "name_en": "Manar al Azhar Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1084,
+        "walk_mins_est": 14.5,
+        "building_height": 42.0,
+        "building_osm_id": "779382189",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 374648839,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822241,
+          21.4134
+        ]
+      },
+      "properties": {
+        "name_ar": "Al Fajer Al Badia Hotel 4",
+        "name_en": "Al Fajer Al Badia Hotel 4",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1091,
+        "walk_mins_est": 14.5,
+        "building_height": 42.0,
+        "building_osm_id": "374648839",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12811717792,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.823417,
+          21.412992
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق هجرة الخير",
+        "name_en": "hijrat alkhayr Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1095,
+        "walk_mins_est": 14.6,
+        "building_height": 55.0,
+        "building_osm_id": "1383771903",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 674426600,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.823065,
+          21.413114
+        ]
+      },
+      "properties": {
+        "name_ar": "اريج الذهبي",
+        "name_en": "Areej Al Zahbi",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1092,
+        "walk_mins_est": 14.6,
+        "building_height": 42.0,
+        "building_osm_id": "674426600",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 657717940,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.821822,
+          21.413559
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق وردة الزهور",
+        "name_en": "Warda Al Zuhoor Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1091,
+        "walk_mins_est": 14.5,
+        "building_height": 42.0,
+        "building_osm_id": "657717940",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 678640592,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.830935,
+          21.413686
+        ]
+      },
+      "properties": {
+        "name_ar": "Ajyad Al Aseel Hotel",
+        "name_en": "Ajyad Al Aseel Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1096,
+        "walk_mins_est": 14.6,
+        "building_height": 42.0,
+        "building_osm_id": "678640592",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 642288666,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.830297,
+          21.413403
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق دريم",
+        "name_en": "Dream Hotel Jeddah 2",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1097,
+        "walk_mins_est": 14.6,
+        "building_height": 42.0,
+        "building_osm_id": "642288666",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12811717746,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.824003,
+          21.412856
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق كادي الهجرة",
+        "name_en": "kadi al hijrah hotal",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1096,
+        "walk_mins_est": 14.6,
+        "building_height": 55.0,
+        "building_osm_id": "1383527845",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12811717783,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.823289,
+          21.413002
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق لؤلؤة الدور",
+        "name_en": "luluat al door hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1098,
+        "walk_mins_est": 14.6,
+        "building_height": 55.0,
+        "building_osm_id": "1383771901",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 678730796,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829878,
+          21.413221
+        ]
+      },
+      "properties": {
+        "name_ar": "برج العميري 3",
+        "name_en": "Burjul Umairi 3",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1100,
+        "walk_mins_est": 14.7,
+        "building_height": 42.0,
+        "building_osm_id": "678730796",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12811717754,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.823734,
+          21.412877
+        ]
+      },
+      "properties": {
+        "name_ar": "زهور التاج",
+        "name_en": "zohoor al taj hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1100,
+        "walk_mins_est": 14.7,
+        "building_height": 55.0,
+        "building_osm_id": "1383771896",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 674313963,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.823057,
+          21.413036
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق منارة الايمان",
+        "name_en": "Manarat Al Eman",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1101,
+        "walk_mins_est": 14.7,
+        "building_height": 42.0,
+        "building_osm_id": "674313963",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 678641730,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.830706,
+          21.413537
+        ]
+      },
+      "properties": {
+        "name_ar": "Tharawat Naba Makkah Hotel",
+        "name_en": "Tharawat Naba Makkah Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1101,
+        "walk_mins_est": 14.7,
+        "building_height": 42.0,
+        "building_osm_id": "678641730",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12811542903,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.823524,
+          21.412947
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق بيتي الذهبي",
+        "name_en": "baity al zahaby hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1097,
+        "walk_mins_est": 14.6,
+        "building_height": 55.0,
+        "building_osm_id": "1383752645",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1287217888,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.828332,
+          21.412727
+        ]
+      },
+      "properties": {
+        "name_ar": "Delma Youths Hotel 1",
+        "name_en": "Delma Youths Hotel 1",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1109,
+        "walk_mins_est": 14.8,
+        "building_height": 42.0,
+        "building_osm_id": "1287217888",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 431538348,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.831886,
+          21.430886
+        ]
+      },
+      "properties": {
+        "name_ar": "ابراج الجنادرية النجاح",
+        "name_en": "Al Janadriyah Towers Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1099,
+        "walk_mins_est": 14.7,
+        "building_height": 42.0,
+        "building_osm_id": "431538348",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 674313655,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.823096,
+          21.412954
+        ]
+      },
+      "properties": {
+        "name_ar": "Hotel Zaharat Al Misfalah",
+        "name_en": "Hotel Zaharat Al Misfalah",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1108,
+        "walk_mins_est": 14.8,
+        "building_height": 42.0,
+        "building_osm_id": "674313655",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 642930028,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.815663,
+          21.42447
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق أوراسيا",
+        "name_en": "Eurasia Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1105,
+        "walk_mins_est": 14.7,
+        "building_height": 42.0,
+        "building_osm_id": "642930028",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12811717747,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.823498,
+          21.412795
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق لينا 1",
+        "name_en": "lina hotel 1",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1114,
+        "walk_mins_est": 14.9,
+        "building_height": 55.0,
+        "building_osm_id": "1383771894",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12812346304,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.823104,
+          21.412876
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق زهرة المسيال",
+        "name_en": "zahret almisyal hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1116,
+        "walk_mins_est": 14.9,
+        "building_height": 55.0,
+        "building_osm_id": "1383839059",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12809498957,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.823358,
+          21.41274
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق لمار",
+        "name_en": "lamar hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1124,
+        "walk_mins_est": 15.0,
+        "building_height": 55.0,
+        "building_osm_id": "1383736948",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 187620553,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.829263,
+          21.432124
+        ]
+      },
+      "properties": {
+        "name_ar": "مكة",
+        "name_en": "Grand Makkah Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1112,
+        "walk_mins_est": 14.8,
+        "building_height": 42.0,
+        "building_osm_id": "187620553",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12811766849,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.823667,
+          21.412603
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق الجعفرية 1",
+        "name_en": "al jafaria hotel 1",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1131,
+        "walk_mins_est": 15.1,
+        "building_height": 55.0,
+        "building_osm_id": "1383527852",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 641852596,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.821484,
+          21.413419
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق اعمار المنار",
+        "name_en": "Emaar Al Manar",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1120,
+        "walk_mins_est": 14.9,
+        "building_height": 42.0,
+        "building_osm_id": "641852596",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 674313654,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822964,
+          21.412801
+        ]
+      },
+      "properties": {
+        "name_ar": "Barakat Ar Raid Hotel",
+        "name_en": "Barakat Ar Raid Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1128,
+        "walk_mins_est": 15.0,
+        "building_height": 42.0,
+        "building_osm_id": "674313654",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 374648852,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822769,
+          21.412822
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق نجمة كامل",
+        "name_en": "فندق نجمة كامل",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1132,
+        "walk_mins_est": 15.1,
+        "building_height": 42.0,
+        "building_osm_id": "374648852",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12806456559,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.824739,
+          21.412435
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق سيف المجد",
+        "name_en": "Saif almajd hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1129,
+        "walk_mins_est": 15.1,
+        "building_height": 80.0,
+        "building_osm_id": "1383294169",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12809498956,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.82328,
+          21.412605
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق لؤلؤة القصور الذهبية",
+        "name_en": "loloa al kosour al zahabia hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1140,
+        "walk_mins_est": 15.2,
+        "building_height": 55.0,
+        "building_osm_id": "1383545761",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 438869218,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822292,
+          21.412896
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق دار الإيمان جراند",
+        "name_en": "Dar Al-Eiman Grand Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1141,
+        "walk_mins_est": 15.2,
+        "building_height": 75.0,
+        "building_osm_id": "438869218",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12812203206,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822984,
+          21.412662
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق زوار الحرمين",
+        "name_en": "zowar al haramain Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1143,
+        "walk_mins_est": 15.2,
+        "building_height": 55.0,
+        "building_osm_id": "1383821818",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12809375060,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.823724,
+          21.412478
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق لؤلؤة الإيمان",
+        "name_en": "luluah al iman hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1143,
+        "walk_mins_est": 15.2,
+        "building_height": 55.0,
+        "building_osm_id": "1383527854",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12811373896,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.823221,
+          21.412582
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق الماسة هاني",
+        "name_en": "Al Massa Hani Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1144,
+        "walk_mins_est": 15.3,
+        "building_height": 55.0,
+        "building_osm_id": "1383545763",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 642932171,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.815348,
+          21.424534
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق البشارة موده",
+        "name_en": "Al-Bisharah Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1138,
+        "walk_mins_est": 15.2,
+        "building_height": 42.0,
+        "building_osm_id": "642932171",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12812346306,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822863,
+          21.412676
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق اساور التاج",
+        "name_en": "asawir altaj hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1145,
+        "walk_mins_est": 15.3,
+        "building_height": 55.0,
+        "building_osm_id": "1383839060",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 643514547,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.816384,
+          21.427403
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق جواهر الوفاء",
+        "name_en": "Jawaher Al Wafaa Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1145,
+        "walk_mins_est": 15.3,
+        "building_height": 65.0,
+        "building_osm_id": "643514547",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 641854272,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.821306,
+          21.413168
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق بدر الماسة",
+        "name_en": "Badr Al Masa Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1153,
+        "walk_mins_est": 15.4,
+        "building_height": 42.0,
+        "building_osm_id": "641854272",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12809498955,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.82321,
+          21.41248
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق شروق المسك",
+        "name_en": "shrook al misk hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1156,
+        "walk_mins_est": 15.4,
+        "building_height": 55.0,
+        "building_osm_id": "1383545759",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12812121181,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822628,
+          21.412637
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق الشموع",
+        "name_en": "al shamooa hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1156,
+        "walk_mins_est": 15.4,
+        "building_height": 42.0,
+        "building_osm_id": "663934114",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12809375096,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.823641,
+          21.412342
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق زهرة الهجرة",
+        "name_en": "zahrat al hijrah hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1160,
+        "walk_mins_est": 15.5,
+        "building_height": 55.0,
+        "building_osm_id": "1383527857",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12812341894,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822922,
+          21.412549
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق جلال المتميز 2",
+        "name_en": "jalal mutamaiz Hotel 2",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1157,
+        "walk_mins_est": 15.4,
+        "building_height": 55.0,
+        "building_osm_id": "1383821817",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12809459111,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.823142,
+          21.412414
+        ]
+      },
+      "properties": {
+        "name_ar": "وردة عين شمس",
+        "name_en": "wardat Ain Shams Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1165,
+        "walk_mins_est": 15.5,
+        "building_height": 55.0,
+        "building_osm_id": "1383539337",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12809375118,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.823407,
+          21.412329
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق المسافر الهجرة",
+        "name_en": "al mosafir al hijrah hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1167,
+        "walk_mins_est": 15.6,
+        "building_height": 55.0,
+        "building_osm_id": "1383527859",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12811972113,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822895,
+          21.412443
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق افواج التوبة",
+        "name_en": "afwaj al tawba hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1169,
+        "walk_mins_est": 15.6,
+        "building_height": 55.0,
+        "building_osm_id": "1383812722",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 374648851,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822561,
+          21.412499
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق بلاد المشهد",
+        "name_en": "Hotel Bilad Al Mashhad",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1173,
+        "walk_mins_est": 15.6,
+        "building_height": 42.0,
+        "building_osm_id": "374648851",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 641223918,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.821483,
+          21.412893
+        ]
+      },
+      "properties": {
+        "name_ar": "Al Olayan Al khalil Hotel",
+        "name_en": "Al Olayan Al khalil Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1173,
+        "walk_mins_est": 15.6,
+        "building_height": 42.0,
+        "building_osm_id": "641223918",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 375406993,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.821992,
+          21.412585
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق ياسمين المجد",
+        "name_en": "Yasmin Al Majd Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1184,
+        "walk_mins_est": 15.8,
+        "building_height": 42.0,
+        "building_osm_id": "375406993",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12809375130,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.823183,
+          21.412195
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق مودة الحسنين",
+        "name_en": "mawaddat alhasanayn hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1187,
+        "walk_mins_est": 15.8,
+        "building_height": 55.0,
+        "building_osm_id": "1383527866",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 375395471,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.827744,
+          21.411905
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق ياقوتة الاقصى",
+        "name_en": "Yaqout Al Aqssa Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1189,
+        "walk_mins_est": 15.9,
+        "building_height": 42.0,
+        "building_osm_id": "375395471",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 187620387,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.815412,
+          21.426247
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق رحاب الجنادرية",
+        "name_en": "Rehab Al Janadriah Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1184,
+        "walk_mins_est": 15.8,
+        "building_height": 42.0,
+        "building_osm_id": "187620387",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12811956599,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.82279,
+          21.412193
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق فهد",
+        "name_en": "fahad hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1198,
+        "walk_mins_est": 16.0,
+        "building_height": 55.0,
+        "building_osm_id": "1383801318",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 701454285,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.821924,
+          21.41244
+        ]
+      },
+      "properties": {
+        "name_ar": "Rawdat Al Khalil Hotel",
+        "name_en": "Rawdat Al Khalil Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1202,
+        "walk_mins_est": 16.0,
+        "building_height": 42.0,
+        "building_osm_id": "701454285",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12811972114,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.822784,
+          21.412099
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق جوهرة فاز",
+        "name_en": "jawharat faz hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1208,
+        "walk_mins_est": 16.1,
+        "building_height": 55.0,
+        "building_osm_id": "1383801323",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 701450324,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.821957,
+          21.412323
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق المرجان",
+        "name_en": "Al Marjan Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1213,
+        "walk_mins_est": 16.2,
+        "building_height": 42.0,
+        "building_osm_id": "701450324",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 187609540,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.816607,
+          21.428727
+        ]
+      },
+      "properties": {
+        "name_ar": "نوازي وثير",
+        "name_en": "Nawazi Watheer Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1203,
+        "walk_mins_est": 16.0,
+        "building_height": 50.0,
+        "building_osm_id": "187609540",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 701447124,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.821813,
+          21.41227
+        ]
+      },
+      "properties": {
+        "name_ar": "Al Nebras al Mudea Hotel",
+        "name_en": "Al Nebras al Mudea Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1223,
+        "walk_mins_est": 16.3,
+        "building_height": 42.0,
+        "building_osm_id": "701447124",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 641857673,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.821121,
+          21.412534
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق ضيافة الرجاء",
+        "name_en": "Dhiafat Al Raja Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1225,
+        "walk_mins_est": 16.3,
+        "building_height": 42.0,
+        "building_osm_id": "641857673",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1321995553,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.816311,
+          21.428726
+        ]
+      },
+      "properties": {
+        "name_ar": "Saraya Al Deafah Hotel",
+        "name_en": "Saraya Al Deafah Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1228,
+        "walk_mins_est": 16.4,
+        "building_height": 50.0,
+        "building_osm_id": "1321995553",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 701442513,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.821701,
+          21.411985
+        ]
+      },
+      "properties": {
+        "name_ar": "Nujum Al Mesfla Hotel 5",
+        "name_en": "Nujum Al Mesfla Hotel 5",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1257,
+        "walk_mins_est": 16.8,
+        "building_height": 42.0,
+        "building_osm_id": "701442513",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 674138443,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.82099,
+          21.412149
+        ]
+      },
+      "properties": {
+        "name_ar": "Jod Al-Taj Hotel",
+        "name_en": "Jod Al-Taj Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1269,
+        "walk_mins_est": 16.9,
+        "building_height": 42.0,
+        "building_osm_id": "674138443",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 187609834,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.816181,
+          21.4291
+        ]
+      },
+      "properties": {
+        "name_ar": "منازل الحمد",
+        "name_en": "Manazil Al Hamd Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1263,
+        "walk_mins_est": 16.8,
+        "building_height": 42.0,
+        "building_osm_id": "187609834",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 675759535,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.814486,
+          21.42582
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق فجر مكة الحفاير",
+        "name_en": "Hafair Fajer Makkah Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1259,
+        "walk_mins_est": 16.8,
+        "building_height": 42.0,
+        "building_osm_id": "675759535",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 675757802,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.814341,
+          21.425645
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق عبيرالضيافة",
+        "name_en": "Abeer Al Deafah Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1268,
+        "walk_mins_est": 16.9,
+        "building_height": 42.0,
+        "building_osm_id": "675757802",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4293912789,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.814933,
+          21.42724
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق أثمان الحجاز",
+        "name_en": "فندق أثمان الحجاز",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1271,
+        "walk_mins_est": 16.9,
+        "building_height": 55.0,
+        "building_osm_id": "374656831",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 641858617,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.821042,
+          21.411864
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق فلسطين مكة",
+        "name_en": "Palestine Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1296,
+        "walk_mins_est": 17.3,
+        "building_height": 42.0,
+        "building_osm_id": "641858617",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 675759536,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.814329,
+          21.426077
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق سفير الضيافة",
+        "name_en": "Safeer Al Deafah Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1283,
+        "walk_mins_est": 17.1,
+        "building_height": 42.0,
+        "building_osm_id": "675759536",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1160784843,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.813729,
+          21.424867
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق بونسيانا مكه",
+        "name_en": "Poinciana Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1309,
+        "walk_mins_est": 17.5,
+        "building_height": 125.0,
+        "building_osm_id": "1160784843",
+        "is_landmark": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 642936131,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.814526,
+          21.427604
+        ]
+      },
+      "properties": {
+        "name_ar": "Ramada by Wyndham Makkah Zad Al Tayseer",
+        "name_en": "Ramada by Wyndham Makkah Zad Al Tayseer",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1326,
+        "walk_mins_est": 17.7,
+        "building_height": 55.0,
+        "building_osm_id": "642936131",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1489087118,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.814111,
+          21.428246
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق تاج بارك",
+        "name_en": "Taj Park Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1396,
+        "walk_mins_est": 18.6,
+        "building_height": 95.0,
+        "building_osm_id": "1489087118",
+        "is_landmark": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 779377509,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.813333,
+          21.424628
+        ]
+      },
+      "properties": {
+        "name_ar": "البيضاء",
+        "name_en": "al Beyza Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1344,
+        "walk_mins_est": 17.9,
+        "building_height": 42.0,
+        "building_osm_id": "779377509",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 374655726,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.813091,
+          21.424441
+        ]
+      },
+      "properties": {
+        "name_ar": "Karam al Refaa Hotel",
+        "name_en": "Karam al Refaa Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1365,
+        "walk_mins_est": 18.2,
+        "building_height": 42.0,
+        "building_osm_id": "374655726",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 675800483,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.813016,
+          21.423938
+        ]
+      },
+      "properties": {
+        "name_ar": "البستان الماسي",
+        "name_en": "Al Bustan Diamond Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1365,
+        "walk_mins_est": 18.2,
+        "building_height": 42.0,
+        "building_osm_id": "675800483",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 675799021,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.812746,
+          21.42378
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق فيوليت 2",
+        "name_en": "Violet Hotel 2",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1391,
+        "walk_mins_est": 18.5,
+        "building_height": 42.0,
+        "building_osm_id": "675799021",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 642935995,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.814394,
+          21.428419
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق امجاد",
+        "name_en": "Amjad Al-Deafah Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1379,
+        "walk_mins_est": 18.4,
+        "building_height": 65.0,
+        "building_osm_id": "642935995",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 675800484,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.812694,
+          21.424393
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق برج العالم",
+        "name_en": "Borj Alam Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1404,
+        "walk_mins_est": 18.7,
+        "building_height": 42.0,
+        "building_osm_id": "675800484",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 374656298,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.815993,
+          21.43097
+        ]
+      },
+      "properties": {
+        "name_ar": "Al Amel Tower",
+        "name_en": "Al Amel Tower",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1407,
+        "walk_mins_est": 18.8,
+        "building_height": 42.0,
+        "building_osm_id": "374656298",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 374655718,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.812613,
+          21.425669
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق الارض المتميزة1",
+        "name_en": "Land Premium Hotel 1",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1440,
+        "walk_mins_est": 19.2,
+        "building_height": 42.0,
+        "building_osm_id": "374655718",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 710715199,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.812444,
+          21.424212
+        ]
+      },
+      "properties": {
+        "name_ar": "Al Balad Tower Hotel",
+        "name_en": "Al Balad Tower Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1427,
+        "walk_mins_est": 19.0,
+        "building_height": 42.0,
+        "building_osm_id": "710715199",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 675760701,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.814234,
+          21.42911
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق الحجيج الذهبي 1",
+        "name_en": "Al Hajej Golden 1",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1432,
+        "walk_mins_est": 19.1,
+        "building_height": 42.0,
+        "building_osm_id": "675760701",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 374656295,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.814498,
+          21.429599
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق الحجيج الذهبي 3",
+        "name_en": "Hotel Al Hajij Golden 3",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1437,
+        "walk_mins_est": 19.2,
+        "building_height": 42.0,
+        "building_osm_id": "374656295",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 710715200,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.812291,
+          21.424233
+        ]
+      },
+      "properties": {
+        "name_ar": "Ahmed Suntali Hotel",
+        "name_en": "Ahmed Suntali Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1443,
+        "walk_mins_est": 19.2,
+        "building_height": 42.0,
+        "building_osm_id": "710715200",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 675803788,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.81216,
+          21.423813
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق زهرة اللافندر",
+        "name_en": "Zahrat Al Lavender Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1451,
+        "walk_mins_est": 19.3,
+        "building_height": 42.0,
+        "building_osm_id": "675803788",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 643501717,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.815977,
+          21.431618
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق منارة حاتم",
+        "name_en": "Hotel Manarat Hatim",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1457,
+        "walk_mins_est": 19.4,
+        "building_height": 42.0,
+        "building_osm_id": "643501717",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 710715201,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.812062,
+          21.424204
+        ]
+      },
+      "properties": {
+        "name_ar": "Hotel Al Saeed",
+        "name_en": "Hotel Al Saeed",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1466,
+        "walk_mins_est": 19.5,
+        "building_height": 42.0,
+        "building_osm_id": "710715201",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 675803489,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.811998,
+          21.423593
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق صفوة الضيافة",
+        "name_en": "Safwat Al Deafah Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1466,
+        "walk_mins_est": 19.5,
+        "building_height": 42.0,
+        "building_osm_id": "675803489",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 675803106,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.811883,
+          21.424199
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق كنوز الحفاير",
+        "name_en": "Konoz Al Hafair Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1484,
+        "walk_mins_est": 19.8,
+        "building_height": 42.0,
+        "building_osm_id": "675803106",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 675803488,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.811835,
+          21.423703
+        ]
+      },
+      "properties": {
+        "name_ar": "رخاء الضيافة",
+        "name_en": "Rakha Al Deafah Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1483,
+        "walk_mins_est": 19.8,
+        "building_height": 42.0,
+        "building_osm_id": "675803488",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 643499540,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.815782,
+          21.431896
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق رياض الضيافة",
+        "name_en": "Riyadh Al Deafah Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1493,
+        "walk_mins_est": 19.9,
+        "building_height": 42.0,
+        "building_osm_id": "643499540",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 675803107,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.811758,
+          21.424155
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق سدن بلازا",
+        "name_en": "Sadan Plaza",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1497,
+        "walk_mins_est": 20.0,
+        "building_height": 42.0,
+        "building_osm_id": "675803107",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 675803108,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.81161,
+          21.424185
+        ]
+      },
+      "properties": {
+        "name_ar": "Arows Al-Hafair",
+        "name_en": "Arows Al-Hafair",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1512,
+        "walk_mins_est": 20.2,
+        "building_height": 42.0,
+        "building_osm_id": "675803108",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 374656296,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.81367,
+          21.430504
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق الشريف محمد أبو نمي الثاني التيسير",
+        "name_en": "فندق الشريف محمد أبو نمي الثاني التيسير",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1564,
+        "walk_mins_est": 20.9,
+        "building_height": 42.0,
+        "building_osm_id": "374656296",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 374656292,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.812998,
+          21.429771
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق ابراج البو",
+        "name_en": "Al Bow Towers Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1578,
+        "walk_mins_est": 21.0,
+        "building_height": 42.0,
+        "building_osm_id": "374656292",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 374656290,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.812679,
+          21.430705
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق منازل الحياة",
+        "name_en": "Al Hayat Mnazel Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1661,
+        "walk_mins_est": 22.1,
+        "building_height": 42.0,
+        "building_osm_id": "374656290",
+        "is_landmark": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 751420812,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.810178,
+          21.424263
+        ]
+      },
+      "properties": {
+        "name_ar": "فندق درة الهاشمية",
+        "name_en": "Dura al-Hashmiya Hotel",
+        "stars": "N/A",
+        "rooms": "N/A",
+        "dist_to_kaaba_meters": 1660,
+        "walk_mins_est": 22.1,
+        "building_height": 42.0,
+        "building_osm_id": "751420812",
+        "is_landmark": false
+      }
+    }
+  ]
+}

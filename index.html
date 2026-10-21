@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>ظِـلال مَـكَّـة 3D | المنصة الجغرافية ثلاثية الأبعاد لمكة المكرمة</title>
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🕋</text></svg>">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- CesiumJS 3D Globe Engine & Widgets -->
+    <script src="https://cesium.com/downloads/cesiumjs/releases/1.118/Build/Cesium/Cesium.js"></script>
+    <link href="https://cesium.com/downloads/cesiumjs/releases/1.118/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css?v=5.2" />
+</head>
+<body class="bg-slate-950 text-slate-100 h-screen flex flex-col overflow-hidden select-none">
+
+    <!-- Top Navigation Header -->
+    <header id="main-header" class="h-14 sm:h-16 bg-slate-900/95 backdrop-blur-md border-b border-amber-500/25 px-3 sm:px-5 flex items-center justify-between z-30 shrink-0 transition-colors duration-300 overflow-hidden">
+        <div class="flex items-center space-x-2 sm:space-x-3 space-x-reverse min-w-0">
+            <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-lg sm:rounded-xl bg-gradient-to-br from-emerald-800 to-slate-900 border border-amber-400/40 flex items-center justify-center shadow-md shadow-emerald-950 shrink-0">
+                <i class="fa-solid fa-kaaba text-amber-400 text-sm sm:text-lg"></i>
+            </div>
+            <div class="min-w-0">
+                <div class="flex items-center gap-1.5 sm:gap-2">
+                    <h1 class="text-xs sm:text-base md:text-lg font-black tracking-wide gold-gradient-text truncate"> ظِـلَال مَـكَّـة </h1>
+                </div>
+                <p class="text-[10px] text-slate-400 hidden lg:block">نظام النمذجة المناخية والراحة الحرارية لحجاج بيت الله الحرام | الهيئة الملكية لمدينة مكة والمشاعر</p>
+            </div>
+        </div>
+
+        <!-- Center: Quick 3D Landmark Bookmarks -->
+        <div class="hidden lg:flex items-center gap-2">
+            <button id="btn-bm-kaaba" class="bg-slate-800/90 hover:bg-slate-700 text-xs font-semibold px-3 py-1.5 rounded-xl border border-slate-700/80 text-amber-300 flex items-center gap-1.5 transition cursor-pointer">
+                <i class="fa-solid fa-mosque"></i>
+                <span>المسجد الحرام والكعبة</span>
+            </button>
+            <button id="btn-bm-clock" class="bg-slate-800/90 hover:bg-slate-700 text-xs font-semibold px-3 py-1.5 rounded-xl border border-slate-700/80 text-slate-200 flex items-center gap-1.5 transition cursor-pointer">
+                <i class="fa-solid fa-clock text-amber-400"></i>
+                <span>مجمع برج الساعة</span>
+            </button>
+            <button id="btn-bm-jabal" class="bg-slate-800/90 hover:bg-slate-700 text-xs font-semibold px-3 py-1.5 rounded-xl border border-slate-700/80 text-slate-200 flex items-center gap-1.5 transition cursor-pointer">
+                <i class="fa-solid fa-building-columns text-sky-400"></i>
+                <span>مشروع جبل عمر</span>
+            </button>
+        </div>
+
+        <!-- Left Tools: Live Thermal Gauges + Sun Time + Theme Toggle -->
+        <div class="flex items-center gap-2">
+            
+            <!-- Real-time Thermal Contrast Widget (Desktop) -->
+            <div id="hdr-thermal-box" class="hidden md:flex items-center gap-2 bg-slate-950/80 border border-slate-800 px-3 py-1.5 rounded-xl text-xs">
+                <div class="flex items-center gap-1.5" title="درجة حرارة الطرق المكشوفة الحارقة">
+                    <span class="w-2.5 h-2.5 rounded-full bg-rose-500 animate-pulse"></span>
+                    <span class="text-slate-400 text-[10px]">سطح مكشوف:</span>
+                    <span id="hdr-temp-sun" class="font-bold text-rose-400 font-mono text-xs">48.2°C</span>
+                </div>
+                <span class="text-slate-600">|</span>
+                <div class="flex items-center gap-1.5" title="درجة حرارة مسارات المشاة المظللة">
+                    <span class="w-2.5 h-2.5 rounded-full bg-emerald-500"></span>
+                    <span class="text-slate-400 text-[10px]">مسار مظلل:</span>
+                    <span id="hdr-temp-shade" class="font-bold text-emerald-400 font-mono text-xs">31.0°C</span>
+                </div>
+                <span class="text-slate-600">|</span>
+                <div class="flex items-center gap-1.5" title="الفارق الحراري للتبريد الطبيعي بالظل">
+                    <span class="text-sky-400 font-bold text-[10px]">التخفيض:</span>
+                    <span id="hdr-temp-diff" class="font-bold text-sky-300 font-mono text-xs">-17.2°C</span>
+                </div>
+            </div>
+
+            <!-- Mobile Compact Thermal Chip -->
+            <div id="mobile-hdr-thermal" class="flex md:hidden items-center gap-1.5 bg-slate-950/80 border border-slate-800 px-2 py-1 rounded-xl text-xs" title="الحرارة اللحظية: مكشوف / مظلل">
+                <span class="w-2 h-2 rounded-full bg-rose-500"></span>
+                <span id="m-temp-sun" class="font-bold text-rose-400 font-mono text-[11px]">48.2°C</span>
+                <span class="text-slate-600 font-mono">/</span>
+                <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+                <span id="m-temp-shade" class="font-bold text-emerald-400 font-mono text-[11px]">31.0°C</span>
+            </div>
+
+            <!-- Sun Time Pill -->
+            <div class="hidden sm:flex items-center gap-1.5 bg-slate-950/80 border border-slate-800 px-2.5 py-1.5 rounded-xl text-xs" id="hdr-time-box">
+                <i class="fa-regular fa-sun text-amber-400"></i>
+                <span class="text-slate-400 text-[10px] hidden md:inline">توقيت الشمس:</span>
+                <span id="time-display" class="font-bold text-amber-400 font-mono text-xs">12:45 م</span>
+            </div>
+
+            <!-- Dark / Light Mode Toggle Button -->
+            <button id="btn-theme-toggle" title="تبديل النمط (داكن / فاتح)" 
+                    class="bg-slate-800 hover:bg-slate-700 text-xs font-bold px-2.5 sm:px-3 py-1.5 rounded-xl border border-slate-700 text-slate-200 flex items-center gap-1.5 transition cursor-pointer">
+                <i class="fa-solid fa-moon text-amber-400" id="theme-toggle-icon"></i>
+                <span id="theme-toggle-text" class="hidden sm:inline">الوضع الداكن</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Loading Status Notification -->
+    <div id="loading-status-badge" class="absolute top-20 left-1/2 -translate-x-1/2 z-40 bg-slate-900/90 border border-emerald-500/50 rounded-2xl px-5 py-2.5 shadow-2xl backdrop-blur-md flex items-center gap-3">
+        <i class="fa-solid fa-circle-notch fa-spin text-emerald-400"></i>
+        <span id="loading-status-text" class="text-xs font-semibold text-slate-200">جاري تحميل البيانات المكانية الحقيقية لمكة المكرمة...</span>
+    </div>
+
+    <!-- Live Pilgrim 3D Navigation HUD Banner -->
+    <div id="nav-hud-banner" class="gis-nav-hud absolute top-20 left-1/2 -translate-x-1/2 z-50 w-11/12 max-w-2xl bg-slate-900/95 border border-emerald-500/60 rounded-2xl p-3 sm:p-4 shadow-2xl backdrop-blur-md hidden transition-all duration-300">
+        <!-- Top Row: Status Badges (Right in RTL) & Action Buttons (Left in RTL) -->
+        <div class="flex items-center justify-between gap-2 pb-2 border-b border-slate-800/80">
+            <div class="flex items-center gap-1.5 sm:gap-2 flex-wrap min-w-0">
+                <span class="text-[10px] sm:text-xs bg-emerald-950/90 text-emerald-300 font-bold px-2 sm:px-2.5 py-0.5 rounded-full border border-emerald-500/40 flex items-center gap-1 shrink-0">
+                    <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                    <span>ملاحة حية في مسار الظل</span>
+                </span>
+                <span id="nav-hud-cooling" class="text-[10px] sm:text-xs font-bold text-sky-300 bg-sky-950/80 px-2 sm:px-2.5 py-0.5 rounded-full border border-sky-500/30 font-mono shrink-0">
+                    ❄️ 31.0°C (-17°C)
+                </span>
+            </div>
+            
+            <div class="flex items-center gap-1.5 shrink-0">
+                <button id="btn-toggle-cam-view" title="تبديل منظور الكاميرا" class="bg-slate-800 hover:bg-slate-700 text-amber-300 text-[11px] font-bold px-2 sm:px-2.5 py-1 sm:py-1.5 rounded-xl border border-slate-700 flex items-center gap-1 transition cursor-pointer">
+                    <i class="fa-solid fa-street-view"></i>
+                    <span id="txt-cam-view" class="hidden xs:inline sm:inline">منظور المشاة</span>
+                </button>
+                <button id="btn-stop-nav" title="إنهاء الملاحة" class="bg-rose-950/90 hover:bg-rose-900 text-rose-200 text-[11px] font-bold px-2.5 py-1 sm:py-1.5 rounded-xl border border-rose-700/60 transition flex items-center gap-1 cursor-pointer">
+                    <i class="fa-solid fa-xmark"></i>
+                    <span id="txt-stop-nav">إيقاف</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Middle Row: Walker Icon + Full-width Instruction Text -->
+        <div class="flex items-center gap-2.5 sm:gap-3.5 pt-2.5 pb-1">
+            <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-br from-emerald-900 to-emerald-950 border border-emerald-400/50 flex items-center justify-center text-emerald-300 text-xl sm:text-2xl shadow-lg shrink-0">
+                <i id="nav-hud-icon" class="fa-solid fa-person-walking"></i>
+            </div>
+            <div class="flex-1 min-w-0">
+                <h4 id="nav-hud-instruction" class="text-xs sm:text-sm font-black text-slate-100 leading-snug break-words">
+                    الزم الرواق الأيسر المظلل تحت أبراج جبل عمر
+                </h4>
+            </div>
+        </div>
+
+        <!-- Bottom Row: Realtime Progress bar and remaining meters -->
+        <div class="mt-2 flex items-center gap-3 text-xs text-slate-400">
+            <div class="w-full bg-slate-800 h-2 rounded-full overflow-hidden">
+                <div id="nav-progress-bar" class="bg-gradient-to-l from-emerald-400 to-sky-400 h-full rounded-full transition-all duration-300" style="width: 5%;"></div>
+            </div>
+            <span id="nav-hud-remaining" class="shrink-0 font-mono text-[11px] text-emerald-400 font-bold">280 م متبقية</span>
+        </div>
+    </div>
+
+    <!-- Main Workspace (Fullscreen Cesium 3D Globe + Sidebar Drawer) -->
+    <div class="relative flex-1 w-full h-full overflow-hidden">
+
+        <!-- 1. Fullscreen Cesium 3D Globe Container -->
+        <div id="cesium-container" class="w-full h-full"></div>
+
+        <!-- Floating Smart Pilgrim Navigation & Search Engine (Top-Left on Desktop, Bottom Sheet on Mobile) -->
+        <div id="floating-nav-panel" class="gis-nav-widget sheet-peek absolute top-4 left-4 z-30 pointer-events-auto w-[330px] sm:w-[370px] max-w-[calc(100vw-2rem)] rounded-2xl shadow-2xl transition-all duration-300">
+            <!-- Mobile Touch Drag Handle -->
+            <div id="mobile-sheet-drag-area" class="md:hidden flex flex-col items-center pt-2.5 pb-1 cursor-grab active:cursor-grabbing touch-none select-none">
+                <div class="w-12 h-1.5 bg-slate-500/60 rounded-full"></div>
+            </div>
+
+            <!-- Header -->
+            <div class="flex items-center justify-between px-3.5 py-2.5 cursor-pointer select-none" id="nav-widget-header">
+                <div class="flex items-center gap-2">
+                    <span class="w-7 h-7 rounded-lg bg-emerald-600/20 border border-emerald-500/40 flex items-center justify-center text-emerald-400 text-xs shadow-xs">
+                        <i class="fa-solid fa-route"></i>
+                    </span>
+                    <div class="flex flex-col">
+                        <span class="text-xs font-bold flex items-center gap-1.5 nav-widget-title">
+                            الملاحة الذكية في مسارات الظل
+                            <span class="text-[9px] bg-emerald-950 text-emerald-300 border border-emerald-500/30 px-1.5 py-0.2 rounded font-medium">توجيه معتمد</span>
+                        </span>
+                        <span class="text-[9px] nav-widget-subtitle">حساب المسار وتتبع حركة الظلال الهندسية إلى المسجد الحرام</span>
+                    </div>
+                </div>
+                <button id="btn-toggle-nav-widget" class="gis-icon-btn" title="طي / توسيع محرك التوجيه">
+                    <i class="fa-solid fa-chevron-up text-xs transition-transform" id="chevron-nav-widget"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Peek Action Bar (Google Maps style bottom preview on mobile) -->
+            <div id="mobile-peek-bar" class="md:hidden px-3.5 py-2 border-t border-slate-800/80 flex items-center justify-between gap-2.5 cursor-pointer select-none">
+                <div class="flex flex-col min-w-0">
+                    <div class="flex items-center gap-1.5">
+                        <span class="text-xs font-bold text-amber-400 truncate" id="mobile-peek-route-name">ملاحة الحجاج المظللة</span>
+                        <span class="text-[10px] bg-amber-950/90 text-amber-300 border border-amber-500/30 px-1.5 py-0.5 rounded font-bold" id="mobile-peek-temp">اختر فندقك</span>
+                    </div>
+                    <div class="text-[10px] text-slate-400 flex items-center gap-2 pt-0.5">
+                        <span id="mobile-peek-duration"><i class="fa-solid fa-magnifying-glass text-[9px] text-emerald-400"></i> اضغط لتحديد فندقك وتوجيه المسار</span>
+                        <span id="mobile-peek-distance" class="hidden"></span>
+                    </div>
+                </div>
+                <button id="mobile-btn-quick-start" type="button" class="emerald-gradient-btn text-white text-xs font-bold px-3 py-2 rounded-xl flex items-center gap-1.5 shadow-md shrink-0 hover:scale-[1.02] active:scale-[0.98]">
+                    <i class="fa-solid fa-hotel text-amber-300 text-xs"></i>
+                    <span id="mobile-btn-quick-start-text">تحديد الفندق</span>
+                </button>
+            </div>
+
+            <!-- Main Body Container -->
+            <div id="nav-widget-body" class="p-3 flex flex-col gap-2.5 max-h-[calc(100vh-140px)] overflow-y-auto">
+                <!-- 1. Search Hotel & GPS Location Controls -->
+                <div class="flex flex-col gap-1.5">
+                    <div class="flex items-center justify-between text-[10.5px] font-bold">
+                        <span class="nav-section-label">نقطة الانطلاق (موقع المعتمر / الفندق):</span>
+                        <button id="btn-gps-locate" type="button" class="text-[10px] flex items-center gap-1 transition cursor-pointer font-bold text-sky-400 hover:text-sky-300">
+                            <i class="fa-solid fa-location-crosshairs"></i>
+                            <span>تحديد موقعي (GPS)</span>
+                        </button>
+                    </div>
+
+                    <!-- Search input -->
+                    <div class="relative">
+                        <input id="nav-hotel-search-input" type="text" placeholder="ابحث باسم الفندق (مثال: فيرمونت، زمزم، جبل عمر...)" 
+                               class="gis-input w-full border text-xs rounded-xl pl-8 pr-8 py-2 focus:outline-none font-sans shadow-xs" />
+                        <i class="fa-solid fa-magnifying-glass absolute right-3 top-2.5 text-slate-400 text-xs"></i>
+                        <button id="btn-clear-nav-search" class="hidden absolute left-2.5 top-2.5 text-slate-400 hover:text-slate-200 text-xs">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                    </div>
+
+                    <!-- Select list of 316 hotels -->
+                    <select id="nav-hotel-select" class="gis-select w-full border text-xs rounded-xl px-2.5 py-2 focus:outline-none font-sans shadow-xs">
+                        <option value="">-- حدد فندق الإقامة من القائمة (316 فندق) --</option>
+                    </select>
+                </div>
+
+                <!-- Location Notification / Status Pill -->
+                <div id="nav-location-feedback" class="hidden text-[10px] p-2 rounded-lg border leading-tight transition-all"></div>
+
+                <!-- 2. Primary Action Button: "التوجه إلى الحرم" -->
+                <button id="btn-navigate-to-haram" class="w-full emerald-gradient-btn text-white font-bold text-xs py-2.5 px-3 rounded-xl shadow-lg flex items-center justify-center gap-2 transition hover:scale-[1.01] active:scale-[0.99] cursor-pointer">
+                    <i class="fa-solid fa-route text-amber-300 text-sm"></i>
+                    <span class="tracking-wide">حساب المسار وتتبع الظلال المبردة</span>
+                </button>
+
+                <!-- 3. Dynamic Results Card: 2D/3D Perspective + Dual Route Matrix -->
+                <div id="nav-route-results-card" class="hidden flex flex-col gap-2.5 pt-1">
+                    
+                    <!-- Perspective Switcher (2D Top-Down vs 3D Perspective) -->
+                    <div class="gis-perspective-box flex items-center justify-between p-1 rounded-xl text-[11px]" id="perspective-switcher-box">
+                        <span class="perspective-label text-[10px] font-bold px-2">منظور العرض:</span>
+                        <div class="flex items-center gap-1">
+                            <button id="btn-perspective-2d" class="gis-perspective-btn active flex items-center gap-1">
+                                <i class="fa-solid fa-map"></i>
+                                <span>مسقط رأسي 2D (خريطة)</span>
+                            </button>
+                            <button id="btn-perspective-3d" class="gis-perspective-btn flex items-center gap-1">
+                                <i class="fa-solid fa-cube"></i>
+                                <span>منظور ثلاثي الأبعاد 3D</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Focus Mode Layer Status & Toggle -->
+                    <div id="route-focus-mode-banner" class="flex items-center justify-between px-2.5 py-1.5 rounded-lg bg-emerald-950/60 border border-emerald-500/30 text-[10.5px]">
+                        <span class="flex items-center gap-1.5 text-emerald-300 font-medium">
+                            <i id="icon-focus-mode" class="fa-solid fa-eye-slash text-emerald-400 text-xs"></i>
+                            <span>تركيز: تم إخفاء المسارات العامة لإبراز مسارك</span>
+                        </span>
+                        <button id="btn-toggle-route-focus" title="تبديل إظهار شبكة الطرق العامة" class="text-sky-300 hover:text-sky-200 underline font-bold cursor-pointer transition shrink-0">
+                            <span id="txt-focus-mode">إظهار شبكة الطرق</span>
+                        </button>
+                    </div>
+
+                    <!-- Live Weather Station Reading Banner -->
+                    <div class="flex items-center justify-between px-2.5 py-1.5 rounded-lg bg-slate-900/90 border border-slate-700/80 text-[10px]">
+                        <span class="flex items-center gap-1.5 text-slate-300 font-medium">
+                            <i class="fa-solid fa-satellite-dish text-sky-400 text-xs"></i>
+                            <span>حرارة طقس مكة اللحظية (محطة الأرصاد):</span>
+                        </span>
+                        <span id="nav-live-ambient-pill" class="font-bold text-amber-300 font-mono text-[10.5px]">36.6°C (حي ومباشر)</span>
+                    </div>
+
+                    <!-- Route 1: Shaded Safe Route Card (Clickable to select) -->
+                    <div id="card-route-shade" class="gis-route-card route-shade active rounded-xl p-2.5 cursor-pointer transition flex flex-col gap-1.5 shadow-sm">
+                        <div class="flex items-center justify-between">
+                            <span class="route-title flex items-center gap-1.5 font-bold text-xs">
+                                <span class="route-check-badge w-3.5 h-3.5 rounded-full flex items-center justify-center text-[8px]">✓</span>
+                                مسار الظلال والأروقة المبردة (الخيار الموصى به)
+                            </span>
+                            <span id="route-shade-temp-pill" class="route-temp-pill text-[10.5px] font-bold font-mono px-2 py-0.5 rounded-full">
+                                31.2°C (-17.6°C)
+                            </span>
+                        </div>
+                        
+                        <div class="route-metrics-row flex items-center justify-between text-[10px] pt-1">
+                            <span class="flex items-center gap-1"><i class="fa-regular fa-clock"></i> مدة السير: <b id="route-shade-time" class="route-val font-mono">4 دقائق</b></span>
+                            <span class="flex items-center gap-1"><i class="fa-solid fa-arrows-left-right"></i> المسافة: <b id="route-shade-dist" class="route-val font-mono">280 متر</b></span>
+                            <span id="route-shade-percent" class="route-shade-percent font-bold">نسبة التظليل: 97%</span>
+                        </div>
+
+                        <div id="route-shade-desc" class="route-info-box text-[9.5px] leading-tight p-2 rounded-lg">
+                            <b>طبيعة السير:</b> يلتف عبر الأروقة المعمارية وظلال الأبراج ومظلات الساحات ومراوح الرذاذ (أبرد مسار لوقاية المعتمرين).
+                        </div>
+                    </div>
+
+                    <!-- Route 2: Sun Direct Route Card (Clickable to select) -->
+                    <div id="card-route-sun" class="gis-route-card route-sun rounded-xl p-2.5 cursor-pointer transition flex flex-col gap-1.5">
+                        <div class="flex items-center justify-between">
+                            <span class="route-title flex items-center gap-1.5 font-bold text-xs">
+                                <i class="fa-solid fa-triangle-exclamation"></i>
+                                أقصر مسار مباشر (طريقة خرائط جوجل - تحذير حراري)
+                            </span>
+                            <span id="route-sun-temp-pill" class="route-temp-pill text-[10.5px] font-bold font-mono px-2 py-0.5 rounded-full">
+                                48.8°C (حرارة شديدة)
+                            </span>
+                        </div>
+
+                        <div class="route-metrics-row flex items-center justify-between text-[10px] pt-1">
+                            <span class="flex items-center gap-1"><i class="fa-regular fa-clock"></i> مدة السير: <b id="route-sun-time" class="route-val font-mono">2.5 دقيقة</b></span>
+                            <span class="flex items-center gap-1"><i class="fa-solid fa-arrows-left-right"></i> المسافة: <b id="route-sun-dist" class="route-val font-mono">195 متر</b></span>
+                            <span id="route-sun-percent" class="route-shade-percent font-bold">نسبة التظليل: 8%</span>
+                        </div>
+
+                        <div id="route-sun-desc" class="route-info-box text-[9.5px] leading-tight p-2 rounded-lg">
+                            <b>تحذير وقائي:</b> أقصر خط مستقيم لكنه يقطع الساحات والشوارع المكشوفة تحت لهيب الشمس المباشرة (خطر إجهاد حراري).
+                        </div>
+                    </div>
+
+                    <!-- Turn-by-Turn Steps Accordion -->
+                    <div class="gis-steps-container flex flex-col gap-1 p-2 rounded-xl text-[10px]" id="nav-steps-box">
+                        <div class="flex items-center justify-between cursor-pointer select-none" id="toggle-nav-steps">
+                            <span class="steps-title font-bold flex items-center gap-1.5">
+                                <i class="fa-solid fa-list-check text-blue-500"></i> خطوات السير الميدانية والمحطات
+                            </span>
+                            <i class="fa-solid fa-chevron-down steps-chevron text-[10px] transition-transform" id="chevron-nav-steps"></i>
+                        </div>
+                        <div id="nav-steps-list" class="flex flex-col gap-1.5 pt-1.5 max-h-36 overflow-y-auto pr-1">
+                            <!-- Populated dynamically -->
+                        </div>
+                    </div>
+
+                    <!-- Start Live Simulation / Navigation Button -->
+                    <button id="btn-start-pilgrim-walk" class="w-full emerald-gradient-btn text-white font-bold text-xs py-2.5 px-3 rounded-xl shadow-lg flex items-center justify-center gap-2 transition hover:scale-[1.01] active:scale-[0.99] cursor-pointer">
+                        <i class="fa-solid fa-person-walking text-amber-300 text-sm"></i>
+                        <span>بدء محاكاة السير ثلاثية الأبعاد 3D (تتبع المعتمر)</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Google Maps Floating Action Buttons (FAB Stack) -->
+        <div id="mobile-fab-stack" class="fixed right-3 bottom-[125px] z-40 flex flex-col gap-2.5 md:hidden pointer-events-auto transition-all duration-300">
+            <!-- 1. GPS Locate FAB -->
+            <button id="fab-gps" class="mobile-fab group" title="موقعي الحالي (GPS)">
+                <i class="fa-solid fa-location-crosshairs text-sky-400 text-lg group-active:scale-110 transition-transform"></i>
+            </button>
+            <!-- 2. 2D / 3D Perspective Switcher FAB -->
+            <button id="fab-perspective" class="mobile-fab group" title="تبديل المنظور 2D / 3D">
+                <span id="fab-perspective-text" class="text-amber-400 font-black text-xs font-mono">2D</span>
+            </button>
+            <!-- 3. Solar & Prayer Time Slider FAB -->
+            <button id="fab-solar" class="mobile-fab group" title="محاكي الظلال وحركة الشمس">
+                <i class="fa-solid fa-sun text-amber-400 text-lg group-active:rotate-45 transition-transform"></i>
+            </button>
+            <!-- 4. Layers / Map Legend FAB -->
+            <button id="fab-layers" class="mobile-fab group" title="الطبقات ودليل الخريطة">
+                <i class="fa-solid fa-layer-group text-emerald-400 text-lg group-active:scale-110 transition-transform"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Semi-transparent Backdrop for Sheet / Drawers -->
+        <div id="mobile-backdrop" class="fixed inset-0 bg-black/50 backdrop-blur-xs z-35 hidden md:hidden transition-opacity duration-300 pointer-events-auto"></div>
+
+        <!-- 2. Floating Bottom Bar: Compact Solar Simulation & Prayer Presets (Narrow, Centered & Clean) -->
+        <div id="bottom-bar-container" class="absolute bottom-4 left-1/2 -translate-x-1/2 z-30 pointer-events-auto transition-all duration-300 mobile-hidden">
+            <div id="bottom-solar-bar" class="glass-panel rounded-2xl px-3 sm:px-4 py-2 shadow-2xl flex items-center gap-2.5 sm:gap-3 transition-colors duration-300">
+                <!-- Mobile Dismiss Button -->
+                <button id="btn-close-solar-mobile" class="md:hidden text-slate-400 hover:text-white text-xs px-1.5 py-0.5 rounded cursor-pointer" title="إغلاق شريط التوقيت">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+
+                <!-- Prayer presets & time control -->
+                <div class="flex items-center gap-2 shrink-0">
+                    <span class="text-xs font-bold text-amber-400 flex items-center gap-1 shrink-0">
+                        <i class="fa-regular fa-sun"></i> <span class="hidden sm:inline">الظلال:</span>
+                    </span>
+                    <div class="flex bg-slate-900 rounded-xl p-0.5 border border-slate-800 text-[10.5px] shrink-0" id="prayer-buttons-box">
+                        <button id="btn-quick-duhr" class="px-2 sm:px-2.5 py-1 rounded-lg bg-amber-600 text-white font-bold cursor-pointer transition">الظهر</button>
+                        <button id="btn-quick-asr" class="px-2 sm:px-2.5 py-1 rounded-lg text-slate-300 hover:text-white cursor-pointer transition">العصر</button>
+                        <button id="btn-quick-maghrib" class="px-2 sm:px-2.5 py-1 rounded-lg text-slate-300 hover:text-white cursor-pointer transition">المغرب</button>
+                    </div>
+                </div>
+
+                <!-- Slider -->
+                <div class="flex items-center gap-2 sm:gap-2.5 w-32 sm:w-56 shrink-0">
+                    <input id="time-slider" type="range" min="300" max="1380" step="15" value="870" 
+                           class="w-full h-1.5 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-amber-400" />
+                    <span id="slider-time-label" class="text-[11px] text-amber-400 font-mono font-bold shrink-0">14:30</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Floating Interactive GIS Map Legend (Docked on Right Side away from Search Panel) -->
+        <div id="floating-map-legend" class="gis-legend-panel absolute bottom-24 right-4 z-30 pointer-events-auto rounded-xl shadow-2xl transition-all duration-300 mobile-hidden">
+            <!-- Header with title and collapse toggle -->
+            <div class="flex items-center justify-between px-3 py-2 border-b cursor-pointer select-none" id="legend-header">
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-layer-group text-amber-400 text-xs"></i>
+                    <span class="text-xs font-bold font-sans">دليل الرموز وتصنيف المسارات</span>
+                </div>
+                <button id="btn-toggle-legend-card" class="gis-legend-btn text-xs px-1.5 py-0.5 rounded transition" title="طي / توسيع الدليل">
+                    <i class="fa-solid fa-chevron-down text-[10px]" id="chevron-legend"></i>
+                </button>
+            </div>
+
+            <!-- Legend Items Container -->
+            <div id="legend-items-list" class="p-2.5 flex flex-col gap-2 text-[11px] max-w-[280px]">
+                <!-- Road Diversity Section -->
+                <div class="text-[10px] font-bold text-amber-400/90 border-b pb-1 flex items-center gap-1.5">
+                    <i class="fa-solid fa-road text-[10px]"></i>
+                    <span>تصنيف شبكة حركة المشاة:</span>
+                </div>
+                
+                <!-- 1. Shaded Pedestrian Paths -->
+                <div class="flex items-start gap-2">
+                    <span class="gis-legend-line bg-emerald-500 shrink-0 mt-1 shadow-sm"></span>
+                    <div class="flex flex-col leading-tight">
+                        <span class="font-bold text-emerald-400">ممرات مشاة مظللة ومبردة</span>
+                        <span class="text-[9.5px] opacity-75">مسارات وساحات محمية بظلال الأبراج والمظلات الذكية (-17°C)</span>
+                    </div>
+                </div>
+
+                <!-- 2. Air-Conditioned Tunnels -->
+                <div class="flex items-start gap-2">
+                    <span class="gis-legend-line bg-cyan-400 shrink-0 mt-1 shadow-sm"></span>
+                    <div class="flex flex-col leading-tight">
+                        <span class="font-bold text-cyan-300">أنفاق مشاة مكيفة بالكامل</span>
+                        <span class="text-[9.5px] opacity-75">أنفاق مشاة معزولة ومكيفة مزودة برذاذ تبريد 24/7</span>
+                    </div>
+                </div>
+
+                <!-- 3. Forbidden Vehicle Expressways -->
+                <div class="flex items-start gap-2">
+                    <span class="gis-legend-line bg-rose-500 shrink-0 mt-1 shadow-sm"></span>
+                    <div class="flex flex-col leading-tight">
+                        <span class="font-bold text-rose-400">طرق محظورة على المشاة</span>
+                        <span class="text-[9.5px] opacity-75">محاور سريعة للمركبات والحافلات تفادياً لخطورة الدهس</span>
+                    </div>
+                </div>
+
+                <!-- 4. Shared Avenues (Sidewalk Only) -->
+                <div class="flex items-start gap-2">
+                    <span class="gis-legend-line bg-slate-400 shrink-0 mt-1 shadow-sm"></span>
+                    <div class="flex flex-col leading-tight">
+                        <span class="font-bold text-slate-300">شوارع بأرصفة مشاة محمية</span>
+                        <span class="text-[9.5px] opacity-75">السير مسموح على الأرصفة المظللة المحاذية للكتل العمرانية</span>
+                    </div>
+                </div>
+
+                <!-- Thermal Monitoring Badges Section -->
+                <div class="text-[10px] font-bold text-sky-400 border-b pt-1 pb-1 mt-0.5 flex items-center gap-1.5">
+                    <i class="fa-solid fa-temperature-half text-[10px]"></i>
+                    <span>محطات الرصد الميداني اللحظي:</span>
+                </div>
+
+                <div class="flex items-center gap-2">
+                    <span class="legend-badge-sun px-1.5 py-0.5 rounded text-[10px] font-bold font-mono">48.2°C</span>
+                    <span class="text-[9.5px] opacity-80">حرارة الأسفلت الحار المكشوف للشمس المباشرة</span>
+                </div>
+
+                <div class="flex items-center gap-2">
+                    <span class="legend-badge-shade px-1.5 py-0.5 rounded text-[10px] font-bold font-mono">31.0°C</span>
+                    <span class="text-[9.5px] opacity-80">حرارة الرصيف المظلل (-17.2°C تبريد طبيعي)</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. Standard Geoportal Sidebar Drawer (Solid Opaque Adaptive Theme) -->
+        <div id="sidebar-drawer" class="collapsed absolute top-0 right-0 h-full p-3.5 flex flex-col gap-2.5 overflow-y-auto shadow-2xl z-40">
+            
+            <!-- 1. Top Search in Layers Input -->
+            <div class="relative w-full shrink-0">
+                <i class="fa-solid fa-magnifying-glass absolute left-3 top-3 text-slate-400 text-xs"></i>
+                <input id="layer-search-input" type="text" placeholder="ابحث في الطبقات..." 
+                       class="gis-input w-full border rounded-lg pl-8 pr-3 py-2 shadow-xs focus:outline-none focus:border-blue-500 font-sans" />
+            </div>
+
+            <!-- 2. Select Map View Dropdown (Basemap Selector) -->
+            <div class="relative w-full shrink-0">
+                <button id="btn-map-view-dropdown" class="gis-map-dropdown-btn w-full border-2 rounded-lg px-3 py-2 flex items-center justify-between font-bold text-xs shadow-xs transition">
+                    <div class="flex items-center gap-2">
+                        <i class="fa-solid fa-map text-blue-500"></i>
+                        <span>نمط الخريطة</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-down text-xs text-blue-500 transition-transform" id="chevron-map-view"></i>
+                </button>
+                <div id="dropdown-map-view-options" class="gis-map-dropdown-menu hidden absolute top-full left-0 right-0 mt-1 border rounded-lg shadow-xl z-50 overflow-hidden text-xs">
+                    <button class="w-full px-3 py-2 text-right font-medium flex items-center justify-between basemap-option active" data-basemap="satellite">
+                        <span>🛰️ قمر صناعي (فضائي)</span>
+                        <i class="fa-solid fa-check text-blue-500"></i>
+                    </button>
+                    <button class="w-full px-3 py-2 text-right font-medium flex items-center justify-between basemap-option" data-basemap="dark">
+                        <span>🌙 النمط الليلي الداكن</span>
+                        <i class="fa-solid fa-check text-blue-500 hidden"></i>
+                    </button>
+                    <button class="w-full px-3 py-2 text-right font-medium flex items-center justify-between basemap-option" data-basemap="topo">
+                        <span>🗺️ خريطة شوارع تخطيطية</span>
+                        <i class="fa-solid fa-check text-blue-500 hidden"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- 3. Group 1: المعالم والمباني -->
+            <div class="gis-group-box p-2.5 flex flex-col gap-2 shrink-0 rounded-lg shadow-xs">
+                
+                <!-- Group Header -->
+                <div class="flex items-center justify-between select-none w-full">
+                    <div class="flex items-center gap-2 cursor-pointer group-toggle min-w-0" data-target="group-buildings-content">
+                        <i class="fa-regular fa-square-minus text-blue-500 text-sm group-icon shrink-0"></i>
+                        <i class="fa-solid fa-bars text-slate-400 text-xs shrink-0"></i>
+                        <span class="gis-group-title text-xs font-bold truncate">المعالم والمباني</span>
+                    </div>
+                    <div class="flex items-center gap-0.5 shrink-0">
+                        <button class="gis-icon-btn group-eye" data-group="buildings" title="إظهار / إخفاء المجموعة"><i class="fa-regular fa-eye text-blue-500"></i></button>
+                        <button class="gis-icon-btn" id="btn-group-zoom-buildings" title="تكبير للمجموعة"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+                        <button class="gis-icon-btn btn-toggle-drawer" data-drawer="drawer-group-opacity-buildings" title="شفافية المجموعة"><i class="fa-solid fa-circle-half-stroke"></i></button>
+                    </div>
+                </div>
+
+                <!-- Group Opacity Drawer -->
+                <div id="drawer-group-opacity-buildings" class="gis-drawer-content hidden p-2 rounded text-[10px]">
+                    <div class="flex items-center justify-between gap-2">
+                        <span class="font-bold shrink-0">الشفافية:</span>
+                        <input id="slider-opacity-buildings" type="range" min="10" max="100" value="100" step="5" class="w-full h-1 bg-slate-400/50 rounded appearance-none cursor-pointer accent-blue-600" />
+                        <span id="val-opacity-buildings" class="font-mono text-blue-500 font-bold w-7 text-left shrink-0">100%</span>
+                    </div>
+                </div>
+
+                <!-- Nested Sublayers -->
+                <div id="group-buildings-content" class="flex flex-col gap-1.5 pr-2">
+                    
+                    <!-- Sublayer 1: المباني والفنادق -->
+                    <div class="gis-sublayer-card p-2 flex flex-col rounded shadow-xs" data-layer-id="buildings">
+                        <div class="flex items-center justify-between w-full">
+                            <div class="flex items-center gap-1.5 min-w-0">
+                                <i class="fa-solid fa-bars text-slate-400 text-xs shrink-0 cursor-grab"></i>
+                                <span class="gis-sublayer-title text-xs font-semibold truncate">المباني والفنادق</span>
+                            </div>
+                            <div class="flex items-center gap-0.5 shrink-0">
+                                <button class="gis-icon-btn btn-layer-eye" id="btn-eye-buildings" title="إظهار / إخفاء"><i class="fa-regular fa-eye text-blue-500"></i></button>
+                                <button class="gis-icon-btn btn-layer-zoom" id="btn-zoom-buildings" title="تكبير"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+                                <button class="gis-icon-btn btn-toggle-drawer" data-drawer="drawer-opacity-buildings" title="الشفافية"><i class="fa-solid fa-circle-half-stroke"></i></button>
+                                <button class="gis-icon-btn btn-toggle-drawer" data-drawer="drawer-symbology-buildings" title="الترميز الخرائطي"><i class="fa-solid fa-key"></i></button>
+                                <button class="gis-icon-btn btn-toggle-drawer" data-drawer="drawer-info-buildings" title="البيانات الوصفية"><i class="fa-solid fa-circle-info"></i></button>
+                            </div>
+                        </div>
+
+                        <!-- Drawers for Buildings -->
+                        <div id="drawer-opacity-buildings" class="gis-drawer-content hidden p-2 rounded mt-1.5 text-[10px]">
+                            <div class="flex items-center justify-between gap-2">
+                                <span class="font-bold shrink-0">الشفافية:</span>
+                                <input id="slider-opacity-buildings-sub" type="range" min="10" max="100" value="100" step="5" class="w-full h-1 bg-slate-400/50 rounded appearance-none cursor-pointer accent-blue-600" />
+                                <span id="val-opacity-buildings-sub" class="font-mono text-blue-500 font-bold w-7 text-left shrink-0">100%</span>
+                            </div>
+                        </div>
+
+                        <div id="drawer-symbology-buildings" class="gis-drawer-content hidden p-2 rounded mt-1.5 text-[10px]">
+                            <span class="font-bold block mb-1">أسلوب الترميز الخرائطي:</span>
+                            <select id="select-building-symbology" class="gis-select w-full border text-xs rounded p-1.5 focus:outline-none focus:border-blue-500 font-sans">
+                                <option value="realistic" selected>واجهات معمارية واقعية</option>
+                                <option value="marble">ماكيت هندسي أبيض</option>
+                                <option value="stone">حجر مكة الطبيعي</option>
+                                <option value="height">تصنيف بحسب الارتفاع</option>
+                            </select>
+                        </div>
+
+                        <div id="drawer-info-buildings" class="gis-drawer-content hidden p-2 rounded mt-1.5 text-[10px] flex flex-col gap-1">
+                            <div class="flex justify-between"><span>النوع الهندسي:</span><span class="font-bold">مجسمات كتلية ثلاثية الأبعاد</span></div>
+                            <div class="flex justify-between"><span>عدد المعالم:</span><span class="font-bold text-blue-500" id="count-buildings">727 مبنى</span></div>
+                            <div class="flex justify-between"><span>المرجع الجغرافي:</span><span class="font-mono">WGS 84 (EPSG:4326)</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Sublayer 2: بوابات الحرم -->
+                    <div class="gis-sublayer-card p-2 flex flex-col rounded shadow-xs" data-layer-id="gates">
+                        <div class="flex items-center justify-between w-full">
+                            <div class="flex items-center gap-1.5 min-w-0">
+                                <i class="fa-solid fa-bars text-slate-400 text-xs shrink-0 cursor-grab"></i>
+                                <span class="gis-sublayer-title text-xs font-semibold truncate">بوابات الحرم</span>
+                            </div>
+                            <div class="flex items-center gap-0.5 shrink-0">
+                                <button class="gis-icon-btn btn-layer-eye" id="btn-eye-gates" title="إظهار / إخفاء"><i class="fa-regular fa-eye text-blue-500"></i></button>
+                                <button class="gis-icon-btn btn-layer-zoom" id="btn-zoom-gates" title="تكبير"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+                                <button class="gis-icon-btn btn-toggle-drawer" data-drawer="drawer-opacity-gates" title="الشفافية"><i class="fa-solid fa-circle-half-stroke"></i></button>
+                                <button class="gis-icon-btn btn-toggle-drawer" data-drawer="drawer-info-gates" title="البيانات الوصفية"><i class="fa-solid fa-circle-info"></i></button>
+                            </div>
+                        </div>
+
+                        <div id="drawer-opacity-gates" class="gis-drawer-content hidden p-2 rounded mt-1.5 text-[10px]">
+                            <div class="flex items-center justify-between gap-2">
+                                <span class="font-bold shrink-0">الشفافية:</span>
+                                <input id="slider-opacity-gates" type="range" min="10" max="100" value="100" step="5" class="w-full h-1 bg-slate-400/50 rounded appearance-none cursor-pointer accent-blue-600" />
+                                <span id="val-opacity-gates" class="font-mono text-blue-500 font-bold w-7 text-left shrink-0">100%</span>
+                            </div>
+                        </div>
+
+                        <div id="drawer-info-gates" class="gis-drawer-content hidden p-2 rounded mt-1.5 text-[10px] flex flex-col gap-1">
+                            <div class="flex justify-between"><span>النوع الهندسي:</span><span class="font-bold">نقاط معمارية مكانية</span></div>
+                            <div class="flex justify-between"><span>عدد البوابات:</span><span class="font-bold text-blue-500" id="count-gates">156 بوابة</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4. Group 2: الظلال والمسارات -->
+            <div class="gis-group-box p-2.5 flex flex-col gap-2 shrink-0 rounded-lg shadow-xs">
+                
+                <div class="flex items-center justify-between select-none w-full">
+                    <div class="flex items-center gap-2 cursor-pointer group-toggle min-w-0" data-target="group-env-content">
+                        <i class="fa-regular fa-square-minus text-blue-500 text-sm group-icon shrink-0"></i>
+                        <i class="fa-solid fa-bars text-slate-400 text-xs shrink-0"></i>
+                        <span class="gis-group-title text-xs font-bold truncate">الظلال والمسارات</span>
+                    </div>
+                    <div class="flex items-center gap-0.5 shrink-0">
+                        <button class="gis-icon-btn group-eye" data-group="env" title="إظهار / إخفاء المجموعة"><i class="fa-regular fa-eye text-blue-500"></i></button>
+                        <button class="gis-icon-btn" id="btn-group-zoom-env" title="تكبير للمجموعة"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+                        <button class="gis-icon-btn btn-toggle-drawer" data-drawer="drawer-opacity-shadows" title="القتامة"><i class="fa-solid fa-circle-half-stroke"></i></button>
+                    </div>
+                </div>
+
+                <div id="group-env-content" class="flex flex-col gap-1.5 pr-2">
+                    
+                    <!-- Sublayer 1: الظلال الشمسية -->
+                    <div class="gis-sublayer-card p-2 flex flex-col rounded shadow-xs" data-layer-id="shadows">
+                        <div class="flex items-center justify-between w-full">
+                            <div class="flex items-center gap-1.5 min-w-0">
+                                <i class="fa-solid fa-bars text-slate-400 text-xs shrink-0 cursor-grab"></i>
+                                <span class="gis-sublayer-title text-xs font-semibold truncate">الظلال الشمسية</span>
+                            </div>
+                            <div class="flex items-center gap-0.5 shrink-0">
+                                <button class="gis-icon-btn btn-layer-eye" id="btn-eye-shadows" title="إظهار / إخفاء"><i class="fa-regular fa-eye text-blue-500"></i></button>
+                                <button class="gis-icon-btn btn-layer-zoom" id="btn-zoom-shadows" title="تكبير"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+                                <button class="gis-icon-btn btn-toggle-drawer" data-drawer="drawer-opacity-shadows" title="قتامة الظلال"><i class="fa-solid fa-circle-half-stroke"></i></button>
+                                <button class="gis-icon-btn btn-toggle-drawer" data-drawer="drawer-info-shadows" title="البيانات الوصفية"><i class="fa-solid fa-circle-info"></i></button>
+                            </div>
+                        </div>
+
+                        <div id="drawer-opacity-shadows" class="gis-drawer-content hidden p-2 rounded mt-1.5 text-[10px]">
+                            <div class="flex items-center justify-between gap-2">
+                                <span class="font-bold shrink-0">قتامة الظلال:</span>
+                                <input id="slider-opacity-shadows" type="range" min="15" max="98" value="50" step="1" class="w-full h-1 bg-slate-400/50 rounded appearance-none cursor-pointer accent-blue-600" />
+                                <span id="val-opacity-shadows" class="font-mono text-blue-500 font-bold w-7 text-left shrink-0">50%</span>
+                            </div>
+                        </div>
+
+                        <div id="drawer-info-shadows" class="gis-drawer-content hidden p-2 rounded mt-1.5 text-[10px] flex flex-col gap-1">
+                            <div class="flex justify-between"><span>نوع المحاكاة:</span><span class="font-bold">تتبع مسار الأشعة الشمسية</span></div>
+                            <div class="flex justify-between"><span>الحساب الفلكي:</span><span class="text-emerald-500 font-bold">زوايا السمت والارتفاع اللحظية</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Sublayer 2: مسارات المشاة -->
+                    <div class="gis-sublayer-card p-2 flex flex-col rounded shadow-xs" data-layer-id="roads">
+                        <div class="flex items-center justify-between w-full">
+                            <div class="flex items-center gap-1.5 min-w-0">
+                                <i class="fa-solid fa-bars text-slate-400 text-xs shrink-0 cursor-grab"></i>
+                                <span class="gis-sublayer-title text-xs font-semibold truncate">مسارات المشاة</span>
+                            </div>
+                            <div class="flex items-center gap-0.5 shrink-0">
+                                <button class="gis-icon-btn btn-layer-eye" id="btn-eye-pedestrians" title="إظهار / إخفاء"><i class="fa-regular fa-eye text-blue-500"></i></button>
+                                <button class="gis-icon-btn btn-layer-zoom" id="btn-zoom-pedestrians" title="تكبير"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+                                <button class="gis-icon-btn btn-toggle-drawer" data-drawer="drawer-opacity-roads" title="الشفافية"><i class="fa-solid fa-circle-half-stroke"></i></button>
+                                <button class="gis-icon-btn btn-toggle-drawer" data-drawer="drawer-legend-roads" title="دليل الألوان"><i class="fa-solid fa-key"></i></button>
+                                <button class="gis-icon-btn btn-toggle-drawer" data-drawer="drawer-info-roads" title="البيانات الوصفية"><i class="fa-solid fa-circle-info"></i></button>
+                            </div>
+                        </div>
+
+                        <div id="drawer-opacity-roads" class="gis-drawer-content hidden p-2 rounded mt-1.5 text-[10px]">
+                            <div class="flex items-center justify-between gap-2">
+                                <span class="font-bold shrink-0">الشفافية:</span>
+                                <input id="slider-opacity-pedestrians" type="range" min="10" max="100" value="85" step="5" class="w-full h-1 bg-slate-400/50 rounded appearance-none cursor-pointer accent-blue-600" />
+                                <span id="val-opacity-pedestrians" class="font-mono text-blue-500 font-bold w-7 text-left shrink-0">85%</span>
+                            </div>
+                        </div>
+
+                        <div id="drawer-legend-roads" class="gis-drawer-content hidden p-2 rounded mt-1.5 text-[10px] flex flex-col gap-1">
+                            <div class="flex items-center justify-between">
+                                <span class="flex items-center gap-1.5">
+                                    <span class="gis-swatch-line-green"></span> ممرات مشاة مظللة
+                                </span>
+                                <span class="font-mono text-emerald-500 font-bold">819 مقطع</span>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <span class="flex items-center gap-1.5">
+                                    <span class="gis-swatch-line-red"></span> طرق محظورة المشاة
+                                </span>
+                                <span class="font-mono text-rose-500 font-bold">119 مقطع</span>
+                            </div>
+                        </div>
+
+                        <div id="drawer-info-roads" class="gis-drawer-content hidden p-2 rounded mt-1.5 text-[10px] flex flex-col gap-1">
+                            <div class="flex justify-between"><span>النوع الهندسي:</span><span class="font-bold">ممرات بعرض الشارع الحقيقي</span></div>
+                            <div class="flex justify-between"><span>إجمالي المقاطع:</span><span class="font-bold text-blue-500" id="count-pedestrians">938</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Sublayer 3: درجات الحرارة اللحظية (الميزة الجوهرية) -->
+                    <div class="gis-sublayer-card p-2 flex flex-col rounded shadow-xs" data-layer-id="thermal">
+                        <div class="flex items-center justify-between w-full">
+                            <div class="flex items-center gap-1.5 min-w-0">
+                                <i class="fa-solid fa-bars text-slate-400 text-xs shrink-0 cursor-grab"></i>
+                                <span class="gis-sublayer-title text-xs font-semibold truncate">مؤشرات الحرارة الحية</span>
+                            </div>
+                            <div class="flex items-center gap-0.5 shrink-0">
+                                <button class="gis-icon-btn btn-layer-eye" id="btn-eye-thermal" title="إظهار / إخفاء"><i class="fa-regular fa-eye text-blue-500"></i></button>
+                                <button class="gis-icon-btn btn-layer-zoom" id="btn-zoom-thermal" title="تكبير"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+                                <button class="gis-icon-btn btn-toggle-drawer" data-drawer="drawer-opacity-thermal" title="الشفافية"><i class="fa-solid fa-circle-half-stroke"></i></button>
+                                <button class="gis-icon-btn btn-toggle-drawer" data-drawer="drawer-legend-thermal" title="دليل الحرارة"><i class="fa-solid fa-key"></i></button>
+                                <button class="gis-icon-btn btn-toggle-drawer" data-drawer="drawer-info-thermal" title="البيانات الوصفية"><i class="fa-solid fa-circle-info"></i></button>
+                            </div>
+                        </div>
+
+                        <div id="drawer-opacity-thermal" class="gis-drawer-content hidden p-2 rounded mt-1.5 text-[10px]">
+                            <div class="flex items-center justify-between gap-2">
+                                <span class="font-bold shrink-0">الشفافية:</span>
+                                <input id="slider-opacity-thermal" type="range" min="10" max="100" value="100" step="5" class="w-full h-1 bg-slate-400/50 rounded appearance-none cursor-pointer accent-blue-600" />
+                                <span id="val-opacity-thermal" class="font-mono text-blue-500 font-bold w-7 text-left shrink-0">100%</span>
+                            </div>
+                        </div>
+
+                        <div id="drawer-legend-thermal" class="gis-drawer-content hidden p-2 rounded mt-1.5 text-[10px] flex flex-col gap-1">
+                            <div class="flex items-center justify-between">
+                                <span class="flex items-center gap-1.5">
+                                    <span class="w-2 h-2 rounded-full bg-rose-500 shrink-0"></span> طرق مشمسة مكشوفة (حتى 58°C)
+                                </span>
+                                <span class="font-mono text-rose-500 font-bold">حار جداً</span>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <span class="flex items-center gap-1.5">
+                                    <span class="w-2 h-2 rounded-full bg-emerald-500 shrink-0"></span> مسارات مظللة مبردة (34°C)
+                                </span>
+                                <span class="font-mono text-emerald-500 font-bold">-24°C تبريد</span>
+                            </div>
+                        </div>
+
+                        <div id="drawer-info-thermal" class="gis-drawer-content hidden p-2 rounded mt-1.5 text-[10px] flex flex-col gap-1">
+                            <div class="flex justify-between"><span>النوع الهندسي:</span><span class="font-bold">محطات قياس حراري لحظية</span></div>
+                            <div class="flex justify-between"><span>عدد المحطات:</span><span class="font-bold text-blue-500">10 محطات موزعة</span></div>
+                            <div class="flex justify-between"><span>الحساب الميكروي:</span><span class="text-emerald-500 font-bold">ديناميكي بحسب زاوية الشمس</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5. Group 3: فنادق ومقرات إقامة الحجاج -->
+            <div class="gis-group-box p-2.5 flex flex-col gap-2 shrink-0 rounded-lg shadow-xs">
+                
+                <div class="flex items-center justify-between select-none w-full">
+                    <div class="flex items-center gap-2 cursor-pointer group-toggle min-w-0" data-target="group-routing-content">
+                        <i class="fa-regular fa-square-minus text-blue-500 text-sm group-icon shrink-0"></i>
+                        <i class="fa-solid fa-bars text-slate-400 text-xs shrink-0"></i>
+                        <span class="gis-group-title text-xs font-bold truncate">فنادق ومقرات الحجاج</span>
+                    </div>
+                    <span id="count-hotels" class="gis-badge-blue text-[9px] font-mono px-1.5 py-0.5 rounded shrink-0">316 فندق</span>
+                </div>
+
+                <div id="group-routing-content" class="flex flex-col gap-2 pr-2">
+                    <div class="text-[10px] text-slate-400 leading-tight">
+                        تم ربط توجيه وملاحة الحجاج بالمحرك المباشر أعلى يسار الخريطة لتسهيل البحث والرصد اللحظي.
+                    </div>
+                    <button id="btn-open-nav-from-drawer" type="button" class="gis-nav-link-btn w-full font-bold text-[10.5px] py-1.5 px-2 rounded-lg flex items-center justify-center gap-1.5 transition cursor-pointer">
+                        <i class="fa-solid fa-location-arrow"></i>
+                        <span>الذهاب إلى محرك الملاحة والبحث</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Standard Technical GIS Metadata Footer -->
+            <div class="gis-footer mt-auto rounded-lg p-2.5 text-[9px] font-mono flex flex-col gap-1 shadow-xs shrink-0">
+                <div class="flex items-center justify-between font-bold">
+                    <span>مرجع: WGS 84 (EPSG:4326)</span>
+                    <span class="text-emerald-500 flex items-center gap-1 font-bold">● ثلاثي الأبعاد نشط</span>
+                </div>
+                <div class="text-[8px] opacity-75 leading-tight">
+                    محرك العرض: CesiumJS • محاكاة الظلال: زوايا الشمس الفلكية
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Sidebar Toggle Tab Button (Sticks to Drawer Edge) -->
+        <button id="btn-toggle-sidebar" class="w-7 h-12 rounded-l-lg flex items-center justify-center text-xs shadow-md transition">
+            <i class="fa-solid fa-chevron-right"></i>
+        </button>
+
+    </div>
+
+    <!-- Application Script -->
+    <script src="cesium-app.js?v=6.1"></script>
+</body>
+</html>
