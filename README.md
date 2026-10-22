@@ -108,8 +108,8 @@ python -m http.server 8080
 
 ---
 
-### 👨‍💻 إشراف وتطوير:
-**أحمد شحاتة (Ahmed Shehta)**  
+###  إشراف وتطوير:
+**أحمد شحنة (Ahmed Shehta)**  
 *مهندس برمجيات ومطور حلول جغرافية وذكاء اصطناعي*  
 📧 البريد الإلكتروني: `ashehta700@gmail.com`  
 🐙 جيت هاب: [@ashehta700](https://github.com/ashehta700)
